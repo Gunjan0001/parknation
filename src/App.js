@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Header from "./components/common/Header";
+import MainRoute from "./components/common/MainRoute";
 
 function App() {
   return (
     <>
-      <Header />
+      <MainRoute />
     </>
   );
 }

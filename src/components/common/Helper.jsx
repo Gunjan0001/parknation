@@ -1,0 +1,1 @@
+// blog cards map data
