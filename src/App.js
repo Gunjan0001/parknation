@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import BlogHero from "./components/ForTruckDrivers/blog/BlogHero";
+import MainRoute from "./components/common/MainRoute";
 
 function App() {
   return (
     <>
-      <BlogHero />
+      <MainRoute />
     </>
   );
 }
