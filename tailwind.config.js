@@ -31,7 +31,9 @@ module.exports = {
         black: "#020202",
         white: "#FAFAFA",
       },
+      // backgroundImage: {
+      //   blog: "url('../assests/images/webp/blogbg.webp')",
+      // },
     },
   },
-  
 };
