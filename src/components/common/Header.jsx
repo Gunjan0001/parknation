@@ -6,7 +6,7 @@ const Header = () => {
       <div className="container">
         <div className="flex justify-between">
           <img
-            className=" max-w-[76px] w-full cursor-pointer"
+            className=" max-w-[76px] w-full  cursor-pointer"
             src={pagelogo}
             alt="pagelogo"
           />
