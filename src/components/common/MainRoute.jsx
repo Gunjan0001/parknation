@@ -1,15 +1,12 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import BlogCards from "../ForTruckDrivers/blog/BlogCards";
+import Homepage from "../view/fortruckdrivers/Homepage";
 
 const MainRoute = () => {
   return (
     <>
       <Routes>
-        {/* FOR TRUCK DRIVERS  */}
         <Route path="/" element={<Homepage />} />
-        <Route path="/blog" element={<BlogCards />} />
-  
       </Routes>
     </>
   );
