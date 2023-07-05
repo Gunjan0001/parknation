@@ -1,8 +1,11 @@
 import React from 'react'
+import Management from '../../ForTruckDrivers/blog-detail/Management'
 
 const BlogDetails = () => {
   return (
-    <div>BlogDetails</div>
+    <div>
+      <Management />
+    </div>
   )
 }
 
