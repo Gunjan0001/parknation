@@ -19,10 +19,10 @@ module.exports = {
         md: "20px",
         lg: "22px",
         xl: "24px",
-        "2xl": "32px",
-        "3xl": "40px",
-        "4xl": "54px",
-        "5xl": "56px",
+        "3xl": "32px",
+        "4xl": "40px",
+        "5xl": "54px",
+        "6xl": "56px",
       },
 
       colors: {
@@ -33,4 +33,5 @@ module.exports = {
       },
     },
   },
+  
 };

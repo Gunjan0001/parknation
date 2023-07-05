@@ -9,8 +9,8 @@ const MainRoute = () => {
     <>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/" element={<Blog />} />
-        <Route path="/" element={<BlogDetails />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog-detail" element={<BlogDetails />} />
       </Routes>
     </>
   );
