@@ -4,9 +4,8 @@ import Header from "../../common/Header";
 const Homepage = () => {
   return (
     <div>
-      <Header />
+      <Header />    
     </div>
   );
 };
-
 export default Homepage;
