@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Management from './components/ForTruckDrivers/blog-detail/Management';
+import logo from "./logo.svg";
+import "./App.css";
+import MainRoute from "./components/common/MainRoute";
 
 function App() {
   return (
     <>
-     <Management/>
+      <MainRoute />
     </>
   );
 }
