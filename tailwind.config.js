@@ -31,14 +31,15 @@ module.exports = {
         black: "#020202",
         white: "#FAFAFA",
       },
-      boxShadow:{
-        contactusboxshadow:" 0px -6px 42px 0px rgba(16, 0, 0, 0.07)"
+      boxShadow: {
+        contactusboxshadow: " 0px -6px 42px 0px rgba(16, 0, 0, 0.07)",
       },
       // backgroundImage: {
       //   blog: "url('../assests/images/webp/blogbg.webp')",
       // },
       backgroundImage: {
         blog: "url('./assests/images/webp/blogbg.webp')",
+        security: "url('./assests/images/png/security_bg.png')",
       },
     },
   },
