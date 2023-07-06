@@ -4,23 +4,29 @@ import { BlogCardData } from "../../common/Helper";
 const BlogCards = () => {
   return (
     <>
-      <section className="container mt-10">
+      <section className="container my-10">
         <div className="flex flex-wrap">
           {BlogCardData &&
             BlogCardData.map((obj, index) => {
               return (
-                <div key={index} className=" w-1/3 px-4 mt-5">
-                  <div className="bg-[#F2F3F4]">
+                <div key={index} className="sm:w-1/2 lg:w-1/3 px-4 mt-5">
+                  <div className="bg-[#F2F3F4] rounded-[10px]">
                     <img
                       src={obj.BlogImg}
                       alt="Bloglaptop"
                       className="w-full"
                     />
                     <div className=" py-4 px-5">
-                      <p>{obj.date} </p>
-                      <h3>{obj.BlogHead} </h3>
-                      <p>{obj.BlogPara} </p>
-                      <p>{obj.ReadMore} </p>
+                      <p className=" text-black font-normal text-base opacity-70 mb-1">
+                        {obj.date}
+                      </p>
+                      <h3 className="text-black font-normal text-md sm:mb-3 mb-2">
+                        {obj.BlogHead}
+                      </h3>
+                      <p className="text-black font-normal text-base opacity-70 sm:mb-4 mb-3">
+                        {obj.BlogPara}
+                      </p>
+                      <p className="text-primary font-normal text-base">{obj.ReadMore} </p>
                     </div>
                   </div>
                 </div>

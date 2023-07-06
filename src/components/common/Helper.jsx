@@ -1,7 +1,15 @@
-import Bloglaptop from "../../assests/images/png/blogCard_laptop.png"
+import Bloglaptop from "../../assests/images/png/blogCard_laptop.png";
 import BlogCard_ManWithTruck from "../../assests/images/png/BlogCard_ManWithTruck.png";
 import BlogCard_TruckHighway from "../../assests/images/png/BlogCard_TruckHighway.png";
-// blog cards map data 
+import camera from "../../assests/images/webp/securityCameraIcon.webp"
+import SecurityProtectionIcon from "../../assests/images/webp/SecurityProtectionIcon.webp";
+import securityPayment from "../../assests/images/webp/securityPayment.webp";
+import truckIcon from "../../assests/images/webp/truckIcon.webp";
+import SecurityDataIcon from "../../assests/images/webp/SecurityDataIcon.webp";
+import paymentMethodIcon from "../../assests/images/webp/paymentMethodIcon.webp";
+import privacyIcon from "../../assests/images/webp/privacyIcon.webp";
+import SecurityGuardIcon from "../../assests/images/webp/SecurityGuardIcon.webp";
+// blog cards map data
 export const BlogCardData = [
   {
     BlogImg: Bloglaptop,
@@ -50,5 +58,48 @@ export const BlogCardData = [
     BlogPara:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. ",
     ReadMore: "Read More...",
+  },
+];
+
+export const SecurityCardData = [
+  {
+    icon: camera,
+    title: "24/7 Camera In all Direction",
+    para: "Nisl leo et eget vel orci vel nibh. Id et ipsum etiam in vitae amet vitae.",
+  },
+  {
+    icon: securityPayment,
+    title: "Secure payment",
+    para: "Nisl leo et eget vel orci vel nibh. Id et ipsum etiam in vitae amet vitae.",
+  },
+  {
+    icon: truckIcon,
+    title: "Shades For all Trucks",
+    para: "Nisl leo et eget vel orci vel nibh. Id et ipsum etiam in vitae amet vitae.",
+  },
+  {
+    icon: paymentMethodIcon,
+    title: "All payment method available",
+    para: "Nisl leo et eget vel orci vel nibh. Id et ipsum etiam in vitae amet vitae.",
+  },
+  {
+    icon: privacyIcon,
+    title: "Privacy",
+    para: "Nisl leo et eget vel orci vel nibh. Id et ipsum etiam in vitae amet vitae.",
+  },
+  {
+    icon: SecurityGuardIcon,
+    title: "Security guard for all gates",
+    para: "Nisl leo et eget vel orci vel nibh. Id et ipsum etiam in vitae amet vitae.",
+  },
+  {
+    icon: SecurityDataIcon,
+    title: "All Activities Data Record",
+    para: "Nisl leo et eget vel orci vel nibh. Id et ipsum etiam in vitae amet vitae.",
+  },
+  {
+    icon: SecurityProtectionIcon,
+    title: "Full protection To All Trucks",
+    para: "Nisl leo et eget vel orci vel nibh. Id et ipsum etiam in vitae amet vitae.",
   },
 ];
