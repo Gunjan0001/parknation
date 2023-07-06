@@ -8,5 +8,5 @@ body {
 }
 
 .dropdown:hover .dropdown-menu {
-    top: 110% !important;
+    top: 100% !important;
 }
