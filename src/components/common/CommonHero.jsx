@@ -7,8 +7,8 @@ const CommonHero = ({ commonHero }) => {
       >
         <div className="container">
           <div>
-            <h2 className="text-[32px] md:text-xl lg:text-2xl text-white font-bold font-Manrope text-center">
-              {commonHero.heading}
+            <h2 className="text-[32px] md:text-xl lg:text-2xl  text-white text-center">
+              {commonHero.h2}
             </h2>
           </div>
         </div>

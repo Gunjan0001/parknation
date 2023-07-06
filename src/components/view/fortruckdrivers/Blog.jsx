@@ -5,8 +5,8 @@ import BlogCards from "../../ForTruckDrivers/blog/BlogCards";
 
 const Blog = () => {
   const commonHero = {
-    heading: "Blogs",
-    // herobg: "bg-blog",
+    h2: "Blogs",
+    herobg: "bg-blog",
   };
   return (
     <>
