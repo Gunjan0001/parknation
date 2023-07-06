@@ -1,7 +1,7 @@
 import React from "react";
 import MenWithMobile from "../../../assests/images/webp/MenWithMobile.webp";
 import MenWithMobileTruck from "../../../assests/images/webp/Blog-detailMenWithMobileTruck.webp";
-import PackNationLogo from "../../../assests/images/png/ParkNationFooterLogo.png";
+
 
 const Management = () => {
   return (
@@ -105,75 +105,8 @@ const Management = () => {
           </p>
         </div>
       </div>
-      <footer className="bg-[#26324D]">
-        <div className="container">
-          <div className="rounded-2xl !bg-white shadow-contactusboxshadow mb-14">
-            <div className="max-w-[618px] py-20 flex flex-col justify-center items-center mx-auto">
-              <h4 className="text-4xl text-[#020202] font-bold">
-                Contact us for more inquires
-              </h4>
-              <p className="text-base text-black opacity-[0.699999988079071] font-normal text-center mb-10">
-                Porta quis volutpat ut ut amet. Pretium vulputate urna tortor
-                vel eget fusce lorem proin. Pharetra dolor habitant ornare
-                pharetra leo neque. Egestas at felis sed massa porta. Est
-                volutpat id elit et.
-              </p>
-              <button className="py-3.5 px-12 text-white text-base font-semibold bg-primary rounded-[10px]">
-                Contact now
-              </button>
-            </div>
-          </div>
-          <div className="flex flex-wrap">
-            <div className="1/4">
-              <img
-                src={PackNationLogo}
-                alt="menwithtruck"
-                className="w-[104px] h-[104] mb-[22px]"
-              />
-              <p className="text-base font-normal text-white opacity-[0.6000000238418579] max-w-[198px] mb-[12px]">
-                350 Berlin cross keys Rd, Sicklerville, NJ 08081, USA
-              </p>
-            </div>
-            <div className="w-2/3 flex justify-between">
-              <div>
-                <h4 className="text-base font-semibold text-white">
-                  Quick Links
-                </h4>
-                <ul>
-                  <li className="mt-2.5 text-base font-normal text-white opacity-[0.699999988079071]">
-                    Search
-                  </li>
-                  <li className="mt-2.5 text-base font-normal text-white opacity-[0.699999988079071]">
-                    About us
-                  </li>
-                  <li className="mt-2.5 text-base font-normal text-white opacity-[0.699999988079071]">
-                    Features
-                  </li>
-                  <li className="mt-2.5 text-base font-normal text-white opacity-[0.699999988079071]">
-                    How it work
-                  </li>
-                  <li className="mt-2.5 text-base font-normal text-white opacity-[0.699999988079071]">
-                    Blogs
-                  </li>
-                </ul>
-              </div>
-              <div className="lg:mt-[34px]">
-                <ul>
-                  <li className="text-base font-normal text-white opacity-[0.699999988079071]">Security</li>
-                  <li className="mt-2.5 text-base font-normal text-white opacity-[0.699999988079071]">Contact us</li>
-                  <li className="mt-2.5 text-base font-normal text-white opacity-[0.699999988079071]">Facts</li>
-                  <li className="mt-2.5 text-base font-normal text-white opacity-[0.699999988079071]">All sites page</li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="text-base font-semibold text-white mb-2.5">Term & Conditions</h4>
-                <p className="text-base font-normal text-white opacity-[0.6000000238418579] max-w-[226px">Tortor risus sem sagittis gravida mi nisl sem gravi.</p>
-                <h4 className="text-base font-semibold text-white mt-[56px]">Download the app now</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+       
+      
     </>
   );
 };
