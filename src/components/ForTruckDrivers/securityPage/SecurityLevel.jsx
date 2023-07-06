@@ -14,12 +14,12 @@ const SecurityLevel = () => {
           in dictumst fermentum sed morbi. Aliquam quis nulla egestas
           pellentesque neque accumsan at facilisis dolor. Nibh ac faucibus.
         </p>
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap justify-center">
           {SecurityCardData &&
             SecurityCardData.map((obj, i) => {
               return (
-                <div className="w-1/2 lg:mb-20 mb-10" key={i}>
-                  <div className="flex items-start lg:gap-8 gap-5">
+                <div className="md:w-1/2 w-full lg:mb-20 mb-10" key={i}>
+                  <div className="flex items-start justify-center lg:gap-8 gap-5">
                     <img
                       src={obj.icon}
                       alt="icons"
