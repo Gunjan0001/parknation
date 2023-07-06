@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Proxima-Nova-Font";
+    src: url(../src/assests/fonts/Proxima-Nova-Font/Proxima\ Nova\ Font.otf);
+}
+
+body {
+    font-family: "Proxima-Nova-Font" !important;
+}
+
 .dropdown:hover .dropdown-menu {
     top: 110% !important;
 }
