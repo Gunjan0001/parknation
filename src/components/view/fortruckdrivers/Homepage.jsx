@@ -1,11 +1,14 @@
 import React from "react";
-import Header from "../../common/Header";
-
+import Hero from "../../ForTruckDrivers/homepage/Hero";
+import HeroAboutUs from "../../ForTruckDrivers/homepage/HeroAboutUs";
+import EvCharging from "../../ForTruckDrivers/homepage/EvCharging";
 const Homepage = () => {
   return (
-    <div>
-      <Header />    
-    </div>
+    <>
+      <Hero />
+      <HeroAboutUs />
+      <EvCharging />
+    </>
   );
 };
 export default Homepage;
