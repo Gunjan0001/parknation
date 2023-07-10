@@ -13,8 +13,12 @@ const Header = () => {
             alt="pagelogo"
           />
           <div
-            className={`flex items-center lg:flex-row flex-col absolute lg:relative bg-gray-50 lg:bg-white h-full w-full top-0 left-0 justify-center lg:justify-end 
-             ${nav === true ? "hidden lg:flex" : "flex"}`}
+            className={`flex items-center duration-300 lg:flex-row flex-col absolute lg:relative bg-gray-50 lg:bg-white h-full w-full  justify-center lg:justify-end 
+             ${
+               nav === true
+                 ? "left-[100%] bottom-[100%] lg:bottom-0 lg:left-0"
+                 : "bottom-0 left-0"
+             }`}
           >
             <ul className="flex itmes-center xl:gap-[28px] lg:gap-[20px] gap-[30px] lg:flex-row flex-col text-center lg:text-start">
               <li className=" text-base font-normal text-black hover:text-primary cursor-pointer transition-all">
