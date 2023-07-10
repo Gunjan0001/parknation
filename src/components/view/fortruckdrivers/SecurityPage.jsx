@@ -3,6 +3,8 @@ import SecurityLevel from "../../ForTruckDrivers/securityPage/SecurityLevel";
 import Header from "../../common/Header";
 import CommonHero from "../../common/CommonHero";
 import ProvideBestSecurity from "../../ForTruckDrivers/securityPage/ProvideBestSecurity";
+import Contact from "../../common/Contact";
+import Footer from "../../common/Footer";
 
 const SecurityPage = () => {
   const commonHero = {
@@ -11,10 +13,12 @@ const SecurityPage = () => {
   };
   return (
     <>
-      <Header/>
+      <Header />
       <CommonHero commonHero={commonHero} />
       <SecurityLevel />
       <ProvideBestSecurity />
+      <Contact />
+      <Footer />
     </>
   );
 };

@@ -9,11 +9,11 @@ import SecurityDataIcon from "../../assests/images/webp/SecurityDataIcon.webp";
 import paymentMethodIcon from "../../assests/images/webp/paymentMethodIcon.webp";
 import privacyIcon from "../../assests/images/webp/privacyIcon.webp";
 import SecurityGuardIcon from "../../assests/images/webp/SecurityGuardIcon.webp";
-
+import { paymentCard } from "./Icon";
 //  team image
-import teamMember1 from "../../assests/images/png/team_member1.png"
-import teamMember2 from "../../assests/images/png/team_member2.png"
-import teamMember3 from "../../assests/images/png/team_member3.png"
+import teamMember1 from "../../assests/images/png/team_member1.png";
+import teamMember2 from "../../assests/images/png/team_member2.png";
+import teamMember3 from "../../assests/images/png/team_member3.png";
 // blog cards map data
 export const BlogCardData = [
   {
@@ -127,5 +127,12 @@ export const TeamCardsData = [
     position: "CEO",
     name: "Esther Howard",
     desc: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. ",
+  },
+];
+
+export const BenifitsData = [
+  {
+    img: paymentCard,
+    head: "flexible payment",
   },
 ];

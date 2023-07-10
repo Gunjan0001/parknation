@@ -6,15 +6,15 @@ const ParkNation = () => {
     <>
       <section>
         <div className="container lg:pt-36 pt-12">
-          <div className="flex flex-wrap">
-            <div className="lg:w-1/2 xl:pr-20 lg:pr-10">
-              <img src={truck_loading} alt="truck_loading" />
+          <div className="flex flex-wrap flex-col-reverse lg:flex-row justify-center">
+            <div className="lg:w-1/2 xl:pr-20 lg:pr-10 lg:mt-0 mt-8">
+              <img src={truck_loading} alt="truck_loading" className="w-full max-w-[520px] mx-auto" />
             </div>
             <div className="lg:w-1/2">
               <h2 className="text-black text-4xl font-bold">
                 ParkNation is Looking Ahead
               </h2>
-              <p className=" opacity-70 text-black text-base font-normal leading-relaxed lg:mb-11 mb-6">
+              <p className=" opacity-70 text-black md:text-base text-sm font-normal leading-relaxed lg:mb-11 mb-6">
                 Our platform is just the beginning. We are also helping build
                 new truck parking enterprises from the ground up, with
                 comprehensive support for business planning, construction, and

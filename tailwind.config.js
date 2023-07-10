@@ -2,7 +2,7 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   important: true,
-  theme: {
+theme: {
     container: {
       center: true,
       padding: {
@@ -41,6 +41,7 @@ module.exports = {
         blog: "url('./assests/images/webp/blogbg.webp')",
         security: "url('./assests/images/png/security_bg.png')",
         herobg: "url('./assests/images/png/hero.png')",
+        AboutUs:"url('./assests/images/png/aboutUs_bg.png')",
       },
     },
   },

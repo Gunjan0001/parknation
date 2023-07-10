@@ -51,7 +51,6 @@ export const CrossIcon = () => {
     </svg>
   );
 };
-
 export const Facebook = () => {
   return (
     <svg
@@ -100,3 +99,21 @@ export const Instagram = () => {
     </svg>
   );
 };
+
+export const paymentCard = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="80"
+      height="80"
+      viewBox="0 0 80 80"
+      fill="none"
+    >
+      <circle cx="40" cy="40" r="40" fill="#EB2022" fill-opacity="0.08" />
+      <path
+        d="M56 28H24V24H56M56 48H24V36H56M56 20H24C21.78 20 20 21.78 20 24V48C20 49.0609 20.4214 50.0783 21.1716 50.8284C21.9217 51.5786 22.9391 52 24 52H56C57.0609 52 58.0783 51.5786 58.8284 50.8284C59.5786 50.0783 60 49.0609 60 48V24C60 22.9391 59.5786 21.9217 58.8284 21.1716C58.0783 20.4214 57.0609 20 56 20ZM30 56H34V60H30V56ZM38 56H42V60H38V56ZM46 56H50V60H46V56Z"
+        fill="#EB2022"
+      />
+    </svg>
+  );
+}

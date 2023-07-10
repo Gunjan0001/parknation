@@ -4,7 +4,7 @@ const WhatWeDo = () => {
   return (
     <>
       <section>
-        <div className="container py-10">
+        <div className="container py-10 mb-24">
           <div className="flex flex-wrap items-center">
             <div className="lg:w-1/2 xl:pr-16 lg:pr-4">
               <h2 className=" text-black text-4xl font-bold xl:mb-4 mb-2">

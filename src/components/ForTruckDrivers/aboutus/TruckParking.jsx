@@ -6,9 +6,9 @@ const TruckParking = () => {
     <>
       <section>
         <div className="container lg:pt-36 pt-12">
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap justify-center">
             <div className="lg:w-1/2 xl:pr-20 lg:pr-10">
-              <h2 className="text-black text-4xl font-bold">
+              <h2 className="text-black md:text-4xl text-2xl font-bold leading-normal">
                 Creating New Opportunity for Truck Parking Enterprises
               </h2>
               <p className="mb-4 opacity-70 text-black text-base font-normal leading-relaxed">
@@ -24,7 +24,7 @@ const TruckParking = () => {
                 spaces for ease of use.
               </p>
             </div>
-            <div className="lg:w-1/2">
+            <div className="lg:w-1/2 lg:mt-0 mt-8">
               <img src={truck_parking} alt="truck_parking" />
             </div>
           </div>

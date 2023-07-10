@@ -5,6 +5,8 @@ import Blog from "../view/fortruckdrivers/Blog";
 import BlogDetails from "../view/fortruckdrivers/BlogDetails";
 import SecurityPage from "../view/fortruckdrivers/SecurityPage";
 import AboutUs from "../view/fortruckdrivers/AboutUs";
+import SearchPage from "../view/fortruckdrivers/SearchPage";
+import HowItWorks from "../view/fortruckdrivers/HowItWorks";
 
 const MainRoute = () => {
   return (
@@ -15,6 +17,8 @@ const MainRoute = () => {
         <Route path="/blog-detail" element={<BlogDetails />} />
         <Route path="/security-page" element={<SecurityPage />} />
         <Route path="/aboutUs" element={<AboutUs />} />
+        <Route path="/search" element={<SearchPage />} />
+        <Route path="/HowItWorks" element={<HowItWorks />} />
       </Routes>
     </>
   );
