@@ -19,17 +19,17 @@ const SecurityLevel = () => {
             SecurityCardData.map((obj, i) => {
               return (
                 <div className="md:w-1/2 w-full lg:mb-20 mb-10" key={i}>
-                  <div className="flex items-start justify-center lg:gap-8 gap-5">
+                  <div className="flex flex-col lg:flex-row lg:items-start items-center justify-center lg:gap-8 gap-5">
                     <img
                       src={obj.icon}
                       alt="icons"
                       className="w-full max-w-[80px] max-h-20"
                     />
                     <div>
-                      <h2 className="mb-2 max-w-[170px] text-md font-bold capitalize text-black">
+                      <h2 className="mb-2 lg:max-w-[170px] text-md lg:text-start text-center font-bold capitalize text-black">
                         {obj.title}
                       </h2>
-                      <p className="text-black max-w-[332px] text-base opacity-70 font-normal">
+                      <p className="text-black lg:text-start text-center max-w-[332px] text-base opacity-70 font-normal">
                         {obj.para}
                       </p>
                     </div>

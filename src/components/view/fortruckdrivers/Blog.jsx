@@ -11,7 +11,7 @@ const Blog = () => {
   };
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <CommonHero commonHero={commonHero} />
       <BlogHero />
       <BlogCards />
