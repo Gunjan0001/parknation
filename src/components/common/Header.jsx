@@ -13,7 +13,7 @@ const Header = () => {
             alt="pagelogo"
           />
           <div
-            className={`flex items-center duration-300 lg:flex-row flex-col absolute lg:relative bg-gray-50 lg:bg-white h-full w-full  justify-center lg:justify-end 
+            className={`flex items-center duration-300 lg:flex-row flex-col fixed z-[10px] lg:relative bg-gray-50 lg:bg-white h-full w-full  justify-center lg:justify-end 
              ${
                nav === true
                  ? "left-[100%] bottom-[100%] lg:bottom-0 lg:left-0"
