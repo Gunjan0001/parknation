@@ -90,9 +90,9 @@ const Header = () => {
               className=" lg:hidden flex flex-col w-[30px] h-[30px] gap-[6px] "
               onClick={() => setNav(false)}
             >
-              <span className=" w-full h-[3px] bg-black"></span>
-              <span className=" w-full h-[3px] bg-black"></span>
-              <span className=" w-full h-[3px] bg-black"></span>
+              <span className="w-full h-[3px] bg-black"></span>
+              <span className="w-full h-[3px] bg-black"></span>
+              <span className="w-full h-[3px] bg-black"></span>
             </div>
           </div>
         </div>
