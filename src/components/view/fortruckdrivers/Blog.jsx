@@ -3,6 +3,8 @@ import BlogHero from "../../ForTruckDrivers/blog/BlogHero";
 import CommonHero from "../../common/CommonHero";
 import BlogCards from "../../ForTruckDrivers/blog/BlogCards";
 import Header from "../../common/Header";
+import Contact from "../../common/Contact";
+import Footer from "../../common/Footer";
 
 const Blog = () => {
   const commonHero = {
@@ -11,10 +13,12 @@ const Blog = () => {
   };
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <CommonHero commonHero={commonHero} />
       <BlogHero />
       <BlogCards />
+      <Contact />
+      <Footer />
     </>
   );
 };

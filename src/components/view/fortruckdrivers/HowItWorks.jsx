@@ -1,26 +1,23 @@
 import React from "react";
-import SecurityLevel from "../../ForTruckDrivers/securityPage/SecurityLevel";
 import Header from "../../common/Header";
+import Benifits from "../../ForTruckDrivers/howitwork/Benifits";
 import CommonHero from "../../common/CommonHero";
-import ProvideBestSecurity from "../../ForTruckDrivers/securityPage/ProvideBestSecurity";
 import Contact from "../../common/Contact";
 import Footer from "../../common/Footer";
-
-const SecurityPage = () => {
+const HowItWorks = () => {
   const commonHero = {
-    h2: "Security",
-    herobg: "bg-security",
+    h2: "How it works",
+    herobg: "bg-HowItWork",
   };
   return (
     <>
       <Header />
       <CommonHero commonHero={commonHero} />
-      <SecurityLevel />
-      <ProvideBestSecurity />
+      <Benifits />
       <Contact />
       <Footer />
     </>
   );
 };
 
-export default SecurityPage;
+export default HowItWorks;

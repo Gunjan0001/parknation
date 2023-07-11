@@ -1,15 +1,16 @@
 import React from "react";
-import Header from "../../common/Header";
-import HeroAboutUs from "../../ForTruckDrivers/homepage/HeroAboutUs"
-import EvCharging from '../../ForTruckDrivers/homepage/EvCharging'
-
+import Hero from "../../ForTruckDrivers/homepage/Hero";
+import HeroAboutUs from "../../ForTruckDrivers/homepage/HeroAboutUs";
+import EvCharging from "../../ForTruckDrivers/homepage/EvCharging";
+import HeroHowItWorks from "../../ForTruckDrivers/homepage/HeroHowItWorks";
 const Homepage = () => {
   return (
-    <div>
-      <Header />   
-      <HeroAboutUs/> 
-      <EvCharging/>
-    </div>
+    <>
+      <Hero />
+      <HeroAboutUs />
+      <HeroHowItWorks />
+      <EvCharging />
+    </>
   );
 };
 export default Homepage;
