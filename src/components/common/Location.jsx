@@ -70,7 +70,7 @@ const Location = () => {
                   />
                 </div>
               </div>
-              <button className="px-[51px] h-[48px] mt-6 lg:mt-0 py-[13px]   text-base font-semibold ">
+              <button className="px-[51px] h-[48px] mt-6 lg:mt-0 py-[13px]  bg-primary rounded-[10px] text-white text-base font-semibold ">
                 Search
               </button>
             </form>
