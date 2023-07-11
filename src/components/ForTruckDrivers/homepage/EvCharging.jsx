@@ -3,13 +3,13 @@ import HeroSectionEVCharging from '../../../assests/images/webp/HeroSectionEVCha
 
 const EvCharging = () => {
   return (
-    <div className='flex container justify-between items-center'>
-        <div className='w-1/2'>
-            <h4 className='text-4xl font-bold text-[#020202] mb-4'>EV charging facility</h4>
-            <p className='text-base font-normal text-black opacity-[0.699999988079071] pr-32'>Nibh mauris dignissim sit imperdiet adipiscing feugiat in lectus. Pellentesque tortor nunc orci volutpat at adipiscing donec pellentesque. Fermentum tellus iaculis quisque et turpis purus.Nibh mauris dignissim sit imperdiet adipiscing feugiat in lectus. Pellentesque tortor nunc orci volutpat at adipiscing donec pellentesque. Fermentum tellus iaculis quisque et turpis purus.</p>
+    <div className='lg:flex container lg:justify-between justify-center items-center lg:flex-row flex-col-reverse lg:pt-32 md:pt-24 sm:pt-20 pt-6 lg:pb-20 pb-10'>
+        <div className='lg:w-1/2 w-full lg:mt-0 mt-7'>
+            <h4 className='lg:text-4xl text-3xl font-bold text-[#020202] lg:mb-4 mb-3'>EV charging facility</h4>
+            <p className='lg:text-base text-sm font-normal text-black opacity-[0.699999988079071] lg:pr-32'>Nibh mauris dignissim sit imperdiet adipiscing feugiat in lectus. Pellentesque tortor nunc orci volutpat at adipiscing donec pellentesque. Fermentum tellus iaculis quisque et turpis purus.Nibh mauris dignissim sit imperdiet adipiscing feugiat in lectus. Pellentesque tortor nunc orci volutpat at adipiscing donec pellentesque. Fermentum tellus iaculis quisque et turpis purus.</p>
         </div>
-        <div className='w-1/2'>
-            <img src={HeroSectionEVCharging} alt=""  className='w-full max-w-[522px]'/>
+        <div className='lg:w-1/2 w-full'>
+            <img src={HeroSectionEVCharging} alt="" className='w-full lg:max-w-[522px]'/>
 
         </div>
     </div>
