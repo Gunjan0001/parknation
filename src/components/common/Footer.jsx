@@ -1,5 +1,5 @@
 import React from 'react'
-import PackNationLogo from "../../../src/assests/images/webp/parknationlogo.webp";
+import footerlogo from "../../../src/assests/images/webp/footerlogo.webp";
 import {Facebook} from "../../components/common/Icon"
 import {Twitter} from "../../components/common/Icon"
 import {Instagram} from "../../components/common/Icon"
@@ -8,12 +8,12 @@ import AppStore from "../../../src/assests/images/png/AppStore.png"
 
 const Footer = () => {
   return (
-    <footer className="bg-[#26324D] pt-24">
+    <footer className="bg-[#26324D] lg:pt-24 pt-16">
          <div className='container mt-20'>
          <div className="flex flex-wrap justify-between pb-[18px] border-[#505A70] border-b-[2px]">
-            <div className="1/4">
+            <div className="lg:w-1/4 w-full">
               <img
-                src={PackNationLogo}
+                src={footerlogo}
                 alt="menwithtruck"
                 className="w-[104px] h-[104] mb-[22px]"
               />
@@ -26,8 +26,8 @@ const Footer = () => {
               <a href=""><Instagram/></a>
              </div>
             </div>
-            <div className="lg:w-2/3 w-full flex justify-between">
-              <div>
+            <div className="lg:w-2/3 w-full sm:flex justify-between lg:mt-0 mt-5">
+              <div className='w-1/3'>
                 <h4 className="text-base font-semibold text-white">
                   Quick Links
                 </h4>
@@ -49,7 +49,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="lg:mt-[34px]">
+              <div className="mt-[34px] w-1/2">
                 <ul>
                   <li className="text-base font-normal text-white opacity-[0.699999988079071]"><a href="">Security</a></li>
                   <li className="mt-2.5 text-base font-normal text-white opacity-[0.699999988079071]"><a href="">Contact us</a></li>
@@ -57,7 +57,7 @@ const Footer = () => {
                   <li className="mt-2.5 text-base font-normal text-white opacity-[0.699999988079071]"><a href="">All sites page</a></li>
                 </ul>
               </div>
-              <div className=''>
+              <div className='lg:mt-0 md:mt-0 sm:mt-0 mt-5'>
                 <h4 className="text-base font-semibold text-white mb-2.5">Term & Conditions</h4>
                 <p className="text-base font-normal text-white opacity-[0.6000000238418579] max-w-[200px]">Tortor risus sem sagittis gravida mi nisl sem gravi.</p>
                 <h4 className="text-base font-semibold text-white mt-[56px] mb-2.5">Download the app now</h4>
