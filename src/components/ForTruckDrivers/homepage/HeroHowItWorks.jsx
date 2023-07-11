@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Rightsidearrow } from "../../common/Icon";
-
+import redcar from "../../../assests/images/png/redcar.png";
 const HeroHowItWorks = () => {
   const [first, setfirst] = useState(0);
   return (
     <section className="bg-[#f8f8f8]">
-      <div className=" py-[100px] container">
-        <h2 className="text-center font-bold text-4xl text-black">
+      <div className=" lg:py-[100px] py-[50px] container">
+        <h2 className="text-center font-bold text-4xl mb-[6 0px] text-black">
           How it works
         </h2>
         <div className=" bg-[#ffffff] py-[24px] px-[28px] rounded-[20px]">
@@ -43,6 +43,27 @@ const HeroHowItWorks = () => {
                 Wide aisles and large parking spaces
               </p>
             </div>
+          </div>
+          <div>
+            <div className="flex mt-[26px] lg:ms-[50px]">
+              <img src={redcar} alt="redcar how its wroks" />
+              <div className="ms-[46px]">
+                <p className="text-base font-normal text-[#000000] opacity-[.7]">
+                  Lorem ipsum dolor sit amet consectetur. Dignissim sit euismod
+                  dictumst id duis felis sed. Hendrerit
+                </p>
+                <p className="text-base font-normal text-[#000000] opacity-[.7]">
+                  Lorem ipsum dolor sit amet consectetur. Dignissim sit euismod
+                  dictumst id duis felis sed. Hendrerit
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="text-end">
+            {" "}
+            <button className=" text-base hover:text-primary ms-[10px] hover:bg-white font-semibold py-[12px] px-[26px] border-[1px] border-primary rounded-[10px] text-white bg-primary duration-300 ">
+              Join Now
+            </button>
           </div>
         </div>
       </div>
