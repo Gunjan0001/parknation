@@ -22,6 +22,14 @@ import {
 import teamMember1 from "../../assests/images/png/team_member1.png";
 import teamMember2 from "../../assests/images/png/team_member2.png";
 import teamMember3 from "../../assests/images/png/team_member3.png";
+import {
+  Arrangement,
+  Cameras,
+  EvCharging,
+  FuelStation2,
+  Security,
+  SpaceTruck,
+} from "./Icon";
 // blog cards map data
 export const BlogCardData = [
   {
@@ -166,5 +174,31 @@ export const BenifitsData = [
   {
     head: "Cost control",
     benefitImg: <CostControl />,
+  },
+];
+export const LocationInformationsData = [
+  {
+    icon: <SpaceTruck />,
+    heading: "We give space to Trucks",
+  },
+  {
+    icon: <Arrangement />,
+    heading: "Well arrangement in parking",
+  },
+  {
+    icon: <EvCharging />,
+    heading: "We provide EV charging point",
+  },
+  {
+    icon: <Cameras />,
+    heading: "We install Camera’s Everywhere",
+  },
+  {
+    icon: <FuelStation2 />,
+    heading: "We Have Fuel Station",
+  },
+  {
+    icon: <Security />,
+    heading: "We provide full security",
   },
 ];
