@@ -9,7 +9,15 @@ import SecurityDataIcon from "../../assests/images/webp/SecurityDataIcon.webp";
 import paymentMethodIcon from "../../assests/images/webp/paymentMethodIcon.webp";
 import privacyIcon from "../../assests/images/webp/privacyIcon.webp";
 import SecurityGuardIcon from "../../assests/images/webp/SecurityGuardIcon.webp";
-import { paymentCard } from "./Icon";
+import {
+  PaymentCard,
+  ParkingIcon,
+  RestbreakIcon,
+  RentalIcons,
+  RoutePlanningIcons,
+  CargoSafetyIcon,
+  CostControl,
+} from "./Icon";
 //  team image
 import teamMember1 from "../../assests/images/png/team_member1.png";
 import teamMember2 from "../../assests/images/png/team_member2.png";
@@ -132,7 +140,31 @@ export const TeamCardsData = [
 
 export const BenifitsData = [
   {
-    img: paymentCard,
     head: "flexible payment",
+    benefitImg: <PaymentCard />,
+  },
+  {
+    head: "Convenient parking",
+    benefitImg: <ParkingIcon />,
+  },
+  {
+    head: "Rest breaks",
+    benefitImg: <RestbreakIcon />,
+  },
+  {
+    head: "App-based online rentals",
+    benefitImg: <RentalIcons />,
+  },
+  {
+    head: "Effective route planning",
+    benefitImg: <RoutePlanningIcons />,
+  },
+  {
+    head: "Cargo safety",
+    benefitImg: <CargoSafetyIcon />,
+  },
+  {
+    head: "Cost control",
+    benefitImg: <CostControl />,
   },
 ];
