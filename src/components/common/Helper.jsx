@@ -1,7 +1,7 @@
 import Bloglaptop from "../../assests/images/png/blogCard_laptop.png";
 import BlogCard_ManWithTruck from "../../assests/images/png/BlogCard_ManWithTruck.png";
 import BlogCard_TruckHighway from "../../assests/images/png/BlogCard_TruckHighway.png";
-import camera from "../../assests/images/webp/securityCameraIcon.webp"
+import camera from "../../assests/images/webp/securityCameraIcon.webp";
 import SecurityProtectionIcon from "../../assests/images/webp/SecurityProtectionIcon.webp";
 import securityPayment from "../../assests/images/webp/securityPayment.webp";
 import truckIcon from "../../assests/images/webp/truckIcon.webp";
@@ -9,6 +9,14 @@ import SecurityDataIcon from "../../assests/images/webp/SecurityDataIcon.webp";
 import paymentMethodIcon from "../../assests/images/webp/paymentMethodIcon.webp";
 import privacyIcon from "../../assests/images/webp/privacyIcon.webp";
 import SecurityGuardIcon from "../../assests/images/webp/SecurityGuardIcon.webp";
+import {
+  Arrangement,
+  Cameras,
+  EvCharging,
+  FuelStation2,
+  Security,
+  SpaceTruck,
+} from "./Icon";
 // blog cards map data
 export const BlogCardData = [
   {
@@ -101,5 +109,31 @@ export const SecurityCardData = [
     icon: SecurityProtectionIcon,
     title: "Full protection To All Trucks",
     para: "Nisl leo et eget vel orci vel nibh. Id et ipsum etiam in vitae amet vitae.",
+  },
+];
+export const LocationInformationsData = [
+  {
+    icon: <SpaceTruck />,
+    heading: "We give space to Trucks",
+  },
+  {
+    icon: <Arrangement />,
+    heading: "Well arrangement in parking",
+  },
+  {
+    icon: <EvCharging />,
+    heading: "We provide EV charging point",
+  },
+  {
+    icon: <Cameras />,
+    heading: "We install Camera’s Everywhere",
+  },
+  {
+    icon: <FuelStation2 />,
+    heading: "We Have Fuel Station",
+  },
+  {
+    icon: <Security />,
+    heading: "We provide full security",
   },
 ];
