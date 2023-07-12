@@ -1,8 +1,8 @@
 import React from "react";
 import WhiteParking from "../../assests/images/webp/account_sign_up.webp";
+import microsoft from "../../assests/images/png/microsoft_logo.png";
 import {
-  FacebookLogo,
-  GoogleLogo,
+  GoogleIcon,
   PasswordShowIcon,
 } from "../../components/common/Icon";
 import { Link } from "react-router-dom";
@@ -122,19 +122,14 @@ const AccountSignUp = () => {
             <p className="font-normal text-black text-center opacity-50 text-[18px] lg:text-md font-Poppins mt-5 relative after:bg-[#020202] after:h-[1px] after:absolute after:w-[43%] after:left-0 after:top-2/4 before:bg-[#020202] before:h-[1px] before:absolute before:w-[43%] before:right-0 before:top-2/4">
               or
             </p>
-            <div className="flex items-center mt-[30px] xl:mt-[40px]">
-              <button className="flex h-[45px] items-center py-[13.8px] border-[#707070] border-[1px] w-full rounded-[6px] justify-center hover:translate-y-[-5px] ease-in-out duration-300">
-                <GoogleLogo />
-                <span className="font-Manrope font-medium text-base text-black ms-[10px]">
-                  Google
-                </span>
-              </button>
-              <button className="flex h-[45px] items-center py-[13.8px] border-[#707070] ms-[20px] border-[1px] w-full rounded-[6px] justify-center hover:translate-y-[-5px] ease-in-out duration-300">
-                <FacebookLogo />
-                <span className="font-Manrope font-medium text-base text-black ms-[10px]">
-                  Facebook
-                </span>
-              </button>
+            <div className="flex items-center justify-center mt-[30px] xl:mt-[40px] gap-[20px]">
+            
+                <GoogleIcon className="w-[28px]" />
+                <img
+                  src={microsoft}
+                  alt="microsoft"
+                  className="w-full max-w-[56px]"
+                />
             </div>
           </div>
         </div>

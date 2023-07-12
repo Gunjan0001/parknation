@@ -1,7 +1,8 @@
 import React from "react";
 import BlueTruck from "../../assests/images/webp/bluetruck.webp";
-import { AppleIcon, GoogleIcon } from "../../components/common/Icon";
-import { Link } from "react-router-dom";
+import { GoogleIcon } from "../../components/common/Icon";
+import microsoft from "../../assests/images/png/microsoft_logo.png";
+
 
 const SignUp = () => {
   return (
@@ -78,7 +79,11 @@ const SignUp = () => {
                 className="hover:-translate-y-1 duration-300 ease-in-out  "
                 href="https://www.apple.com"
               >
-                <AppleIcon />
+                <img
+                  src={microsoft}
+                  alt="microsoft"
+                  className="w-full max-w-[56px]"
+                />
               </a>
             </div>
           </div>
