@@ -9,6 +9,7 @@ import SearchPage from "../view/fortruckdrivers/SearchPage";
 import HowItWorks from "../view/fortruckdrivers/HowItWorks";
 import AllSitePage from "../view/fortruckdrivers/AllSitePage";
 import FactPage from "../view/fortruckdrivers/FactPage";
+import GetInTouch from "../view/fortruckdrivers/GetInTouch";
 
 const MainRoute = () => {
   return (
@@ -23,6 +24,7 @@ const MainRoute = () => {
         <Route path="/HowItWorks" element={<HowItWorks />} />
         <Route path="/AllSitePage" element={<AllSitePage />} />
         <Route path="/FactPage" element={<FactPage />} />
+        <Route path="/GetInTouch" element={<GetInTouch />} />
       </Routes>
     </>
   );
