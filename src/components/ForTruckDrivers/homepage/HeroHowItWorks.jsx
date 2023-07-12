@@ -183,7 +183,7 @@ const HeroHowItWorks = () => {
             </div>
           </div>
           <div className="text-end">
-            <button className=" text-base hover:text-primary ms-[10px] hover:bg-white font-semibold py-[12px] px-[26px] border-[1px] border-primary rounded-[10px] text-white bg-primary duration-300 ">
+            <button className=" text-base hover:text-primary ms-[10px] hover:bg-white font-semibold py-[12px] px-[26px] border-[1px] border-primary rounded-[10px] text-white bg-primary duration-300">
               Join Now
             </button>
           </div>

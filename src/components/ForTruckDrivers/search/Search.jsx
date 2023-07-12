@@ -172,7 +172,7 @@ const Search = () => {
                 </p>
               </div>
             </div>
-            <button className="px-[51px] h-[49px] py-[12px] text-base font-semibold  mt-[53px]">
+            <button className="px-[51px] h-[49px] py-[12px] text-base font-semibold bg-primary text-white  border-[1px] border-primary hover:text-primary hover:bg-white duration-300  mt-[53px]">
               Book Now
             </button>
           </div>

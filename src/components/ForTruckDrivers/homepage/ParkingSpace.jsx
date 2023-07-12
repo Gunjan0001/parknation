@@ -4,9 +4,7 @@ const ParkingSpace = () => {
   return (
     <section className="bg-[#f8f8f8]">
       <div className="container">
-        <div
-          className="flex flex-wrap pb-[40px] lg:pb-[0px] items-center justify-center"
-        >
+        <div className="flex flex-wrap pb-[40px] lg:pb-[0px] items-center justify-center">
           <div className=" md:w-4/5 lg:w-1/2 lg:px-[0px] sm:px-[50px] px-[30px]  lg:py-[100px] sm:pb-[50px] pt-[50px] pb-[20px] ">
             <img
               className="w-full xl:pe-[50px]"
@@ -28,7 +26,7 @@ const ParkingSpace = () => {
               malesuada consequat ultrices sit in. Lorem imperdiet platea duis
               ut in fames posuere. Ante tristique.
             </p>
-            <button className=" mt-[35px] text-base text-primary font-semibold py-[12px] px-[26px] border-[1px] border-primary rounded-[10px] hover:text-white hover:bg-primary duration-300 ">
+            <button className=" mt-[35px] text-base text-primary font-semibold py-[12px] px-[26px] border-[1px] border-primary rounded-[10px] hover:text-white hover:bg-primary duration-300">
               Learn More
             </button>
           </div>

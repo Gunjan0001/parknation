@@ -18,7 +18,7 @@ const ProvideBestSecurity = () => {
               elit augue sit arcu. Accumsan id suscipit integer quis dui non sed
               pretium ipsum.
             </p>
-            <button className=" py-[14px] px-[26px] text-white bg-primary rounded-[10px]">
+            <button className=" py-[14px] px-[26px] text-white bg-primary  border-[1px] border-primary hover:text-primary hover:bg-white duration-300 rounded-[10px]">
               Learn More
             </button>
           </div>

@@ -28,7 +28,7 @@ const WhatWeDo = () => {
                 make their operations safer, more easily compliant, and more
                 profitable.
               </p>
-              <button className="px-[26px] py-3.5 bg-red-600 rounded-[10px] text-neutral-50 text-base font-semibold leading-tight">
+              <button className="px-[26px] py-3.5 bg-red-600 rounded-[10px] text-neutral-50  border-[1px] border-primary hover:text-primary hover:bg-white duration-300  text-base font-semibold leading-tight">
                 Sign Up Now
               </button>
             </div>
