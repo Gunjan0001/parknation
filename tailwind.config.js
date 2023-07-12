@@ -33,18 +33,16 @@ module.exports = {
       },
       boxShadow: {
         contactusboxshadow: " 0px -6px 42px 0px rgba(16, 0, 0, 0.07)",
-        allsitecard: "0px 0px 30.92222023010254px 0px rgba(0, 0, 0, 0.16)"
+        allsitecard: "0px 0px 30.92222023010254px 0px rgba(0, 0, 0, 0.16)",
       },
-
-      // backgroundImage: {
-      //   blog: "url('../assests/images/webp/blogbg.webp')",
-      // },
       backgroundImage: {
         blog: "url('./assests/images/webp/blogbg.webp')",
         security: "url('./assests/images/png/security_bg.png')",
         herobg: "url('./assests/images/png/hero.png')",
         AboutUs: "url('./assests/images/png/aboutUs_bg.png')",
-        HowItWork: "url('./assests/images/png/aboutUs_bg.png')",
+        HowItWork: "url('./assests/images/png/howItWorks_bg.png')",
+        touch: "url('./assests/images/png/touch_bg.png')",
+        collboratebg: "url(./assests/images/png/collabratehomepagebg.png)",
       },
     },
   },

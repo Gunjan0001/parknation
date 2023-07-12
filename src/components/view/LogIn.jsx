@@ -1,6 +1,6 @@
 import React from "react";
-import BlueTruck2 from "../assets/images/webp/bluetruck2.webp";
-import { AppleIcon, FacebookIcon, GoogleIcon } from "../components/common/Icon";
+import BlueTruck2 from "../../assests/images/webp/bluetruck2.webp";
+import { AppleIcon, Facebook, GoogleIcon } from "../../components/common/Icon";
 import { Link } from "react-router-dom";
 
 const Login = () => {
@@ -16,7 +16,7 @@ const Login = () => {
             />
           </div>
           <div className="sm:w-[45%] w-full sm:max-w-[352px] mx-auto px-4 lg:px-0">
-            <h2 className="text-lg md:text-[32px] lg:leading-[55px] lg:text-xl font-bold font-Manrope text-black text-center sm:text-start">
+            <h2 className="text-4xl md:text-[32px] lg:leading-[55px] font-bold font-Manrope text-black text-center sm:text-start">
               Let’s sign you in back
             </h2>
             <form action="" className="mt-9 font-Poppins">
@@ -40,7 +40,7 @@ const Login = () => {
                 placeholder="*************"
               />
 
-              <button className="first_btn h-[49px] w-full py-[14px] text-base font-semibold font-Manrope text-white mt-[34px]">
+              <button className="first_btn h-[49px] w-full py-[14px] text-base font-semibold font-Manrope bg-primary rounded-[10px] text-white mt-[34px]">
                 Login
               </button>
             </form>
@@ -74,7 +74,7 @@ const Login = () => {
                 className="hover:-translate-y-1 duration-300 ease-in-out  "
                 href="https://www.facebook.com"
               >
-                <FacebookIcon />
+                <Facebook />
               </a>
             </div>
             <p className="text-center mt-[33px] font-Poppins text-black text-base">

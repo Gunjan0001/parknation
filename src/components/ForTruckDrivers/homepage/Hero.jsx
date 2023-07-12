@@ -3,7 +3,7 @@ import Header from "../../common/Header";
 
 const Hero = () => {
   return (
-    <div className="xl:h-screen flex flex-col bg-herobg bg-cover bg-no-repeat">
+    <div className="xl:min-h-screen flex flex-col bg-herobg bg-cover bg-no-repeat">
       <Header />
       <div className="xl:grow flex flex-col items-center justify-center">
         <div className="container ">

@@ -1,6 +1,6 @@
 import React from "react";
-import AuthenticarTruck from "../assets/images/webp/authenticator-truck.webp";
-import QRCode from "react-qr-code";
+import AuthenticarTruck from "../../assests/images/webp/authenticator-truck.webp";
+import QRCode from "../../assests/images/png/qrCode.png";
 
 const Authenticator = () => {
   return (
@@ -16,7 +16,11 @@ const Authenticator = () => {
           </div>
           <div className="sm:w-[62%] md:w-[51%] w-full sm:max-w-[400px] lg:max-w-[365px] mx-auto px-4 lg:px-0">
             <div className="bg-transparent max-w-[150px] xl:max-w-[221px] text-center ml-auto mr-auto sm:ml-0">
-              <QRCode className="h-[150px] xl:h-[223px] w-full" value="hey" />
+              <img
+                src={QRCode}
+                className="h-[150px] xl:h-[223px] w-full"
+                alt="QR Code"
+              />
             </div>
             <h2 className="text-lg md:text-[32px] pt-[16px] font-bold font-Manrope text-black text-center sm:text-start">
               Setup Authenticator
@@ -81,7 +85,7 @@ const Authenticator = () => {
                   Don’t show again on this device for 14 days
                 </label>
               </div>
-              <button className="first_btn h-[49px] font-Manrope w-full py-[14px]  text-base font-semibold  mt-[33px]">
+              <button className="first_btn h-[49px] font-Manrope w-full py-[14px] bg-primary text-white rounded-[10px] text-base font-semibold  mt-[33px]">
                 Done
               </button>
             </form>

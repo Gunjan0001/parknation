@@ -1,6 +1,6 @@
 import React from "react";
-import BlueTruck from "../assets/images/webp/sign_in.webp";
-import { FacebookLogo, GoogleLogo } from "../components/common/Icon";
+import BlueTruck from "../../assests/images/webp/sign_in.webp";
+import { Facebook, GoogleLogo } from "../../components/common/Icon";
 import { Link } from "react-router-dom";
 
 const SignIn = () => {
@@ -59,7 +59,7 @@ const SignIn = () => {
                 </span>
               </button>
               <button className="flex h-[45px] items-center py-[12px] border-[#707070] ms-[20px] border-[1px] w-full hover:translate-y-[-5px] ease-in-out duration-300 rounded-[6px] justify-center">
-                <FacebookLogo />
+                <Facebook />
                 <span className="font-Manrope font-medium text-base text-[#020202] ms-[10px]">
                   Facebook
                 </span>

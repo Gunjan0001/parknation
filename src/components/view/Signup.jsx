@@ -1,6 +1,6 @@
 import React from "react";
-import BlueTruck from "../assets/images/webp/bluetruck.webp";
-import { AppleIcon, FacebookIcon, GoogleIcon } from "../components/common/Icon";
+import BlueTruck from "../../assests/images/webp/bluetruck.webp";
+import { AppleIcon, GoogleIcon } from "../../components/common/Icon";
 import { Link } from "react-router-dom";
 
 const SignUp = () => {
@@ -56,7 +56,7 @@ const SignUp = () => {
                 required
                 placeholder=" *************"
               />
-              <button className="first_btn h-[49px]  w-full py-[12px] text-white text-base font-semibold  mt-[33px] font-Manrope">
+              <button className="first_btn h-[49px] bg-primary rounded-[10px] w-full py-[12px] text-white text-base font-semibold  mt-[33px] font-Manrope">
                 Register now
               </button>
             </form>
@@ -79,12 +79,6 @@ const SignUp = () => {
                 href="https://www.apple.com"
               >
                 <AppleIcon />
-              </a>
-              <a
-                className="hover:-translate-y-1 duration-300 ease-in-out  "
-                href="https://www.facebook.com"
-              >
-                <FacebookIcon />
               </a>
             </div>
           </div>

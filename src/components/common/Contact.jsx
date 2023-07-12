@@ -17,7 +17,7 @@ const Contact = () => {
               leo neque. Egestas at felis sed massa porta. Est volutpat id elit
               et.
             </p>
-            <button className="lg:py-3.5 py-3 lg:px-12 px-10 text-white lg:text-base text-sm font-semibold bg-primary rounded-[10px]">
+            <button className="lg:py-3.5 py-3 lg:px-12 px-10 text-white lg:text-base  border-[1px] border-primary hover:text-primary hover:bg-white duration-300 text-sm font-semibold bg-primary rounded-[10px]">
               Contact now
             </button>
           </div>

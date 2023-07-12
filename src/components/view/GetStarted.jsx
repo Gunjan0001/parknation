@@ -1,6 +1,6 @@
 import React from "react";
-import GreenTruck from "../assets/images/webp/get_started.webp";
-import { GoogleLogo } from "../components/common/Icon";
+import GreenTruck from "../../assests/images/webp/get_started.webp";
+import { GoogleLogo } from "../../components/common/Icon";
 import { Link } from "react-router-dom";
 
 const GetStarted = () => {
@@ -15,7 +15,7 @@ const GetStarted = () => {
             <img
               src={GreenTruck}
               alt="BlueTruck"
-              className="object-cover  w-full h-screen object-right"
+              className="object-cover w-full h-screen object-right"
             />
           </div>
           <div className="sm:w-3/5 md:w-[45%] w-full sm:max-w-[360px] mx-auto px-4 lg:px-0">
@@ -74,9 +74,9 @@ const GetStarted = () => {
             <p className="mt-[33px] font-Poppins text-base font-normal text-[#020202] opacity-70">
               By signing up, I Agree with{" "}
               <a href="#" className="text-[#EB2022]">
-                Terms{" "}
+                Terms &nbsp;
               </a>
-              and{" "}
+              and &nbsp;
               <a href="#" className="text-[#EB2022]">
                 Privacy Policy
               </a>
