@@ -1,4 +1,5 @@
-import logo from "./logo.svg";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./App.css";
 import "./index.css";
 import MainRoute from "./components/common/MainRoute";
