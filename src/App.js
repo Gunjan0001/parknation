@@ -8,7 +8,7 @@ import LoaderHome from "./components/common/LoaderHome";
 function App() {
   return (
     <>
-      <LoaderHome/>
+      <LoaderHome />
       <MainRoute />
     </>
   );

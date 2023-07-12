@@ -1,10 +1,10 @@
 import React from "react";
-import WhiteParking from "../assets/images/webp/account_sign_up.webp";
+import WhiteParking from "../../assests/images/webp/account_sign_up.webp";
 import {
   FacebookLogo,
   GoogleLogo,
   PasswordShowIcon,
-} from "../components/common/Icon";
+} from "../../components/common/Icon";
 import { Link } from "react-router-dom";
 
 const AccountSignUp = () => {
@@ -27,7 +27,7 @@ const AccountSignUp = () => {
               Account sign up
             </h2>
             <p className="font-Poppins text-base text-black opacity-70 font-normal mb-6">
-              Already have an account?{" "}
+              Already have an account?
               <Link to="/sign-in" className="text-[#EB2022]">
                 Sign in
               </Link>

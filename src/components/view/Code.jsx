@@ -1,6 +1,6 @@
 import React from "react";
-import TrucksParking from "../assets/images/webp/recovery_code.webp";
-import { RedCoppyBtn, RedQuestionMark } from "../components/common/Icon";
+import TrucksParking from "../../assests/images/webp/recovery_code.webp";
+import { RedCoppyBtn, RedQuestionMark } from "../../components/common/Icon";
 
 const Code = () => {
   const submitData = (e) => {
