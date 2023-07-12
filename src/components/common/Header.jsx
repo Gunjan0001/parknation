@@ -47,7 +47,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className=" text-base font-normal text-black hover:text-primary cursor-pointer transition-all">
-                <Link aria-label="Contact us" to="/contact-us">
+                <Link aria-label="GetInTouch" to="/GetInTouch">
                   Contact us
                 </Link>
               </li>
