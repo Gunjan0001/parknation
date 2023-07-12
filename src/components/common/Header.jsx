@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import pagelogo from "../../assests/images/webp/parknationlogo.webp";
+import { Link } from "react-router-dom";
 import { CrossIcon } from "./Icon";
 const Header = () => {
   const [nav, setNav] = useState(true);
@@ -7,11 +8,14 @@ const Header = () => {
     <nav className="bg-white">
       <div className="container">
         <div className="flex justify-between items-center">
-          <img
-            className="my-[12px] max-w-[76px] w-full  cursor-pointer"
-            src={pagelogo}
-            alt="pagelogo"
-          />
+          {" "}
+          <Link aria-label="logo" to="/">
+            <img
+              className="my-[12px] max-w-[76px] w-full  cursor-pointer"
+              src={pagelogo}
+              alt="pagelogo"
+            />
+          </Link>
           <div
             className={`flex items-center duration-300 lg:flex-row flex-col fixed z-[10px] lg:relative bg-gray-50 lg:bg-white h-full w-full  justify-center lg:justify-end 
              ${
@@ -22,22 +26,35 @@ const Header = () => {
           >
             <ul className="flex itmes-center xl:gap-[28px] lg:gap-[20px] gap-[30px] lg:flex-row flex-col text-center lg:text-start">
               <li className=" text-base font-normal text-black hover:text-primary cursor-pointer transition-all">
-                Home
+                <Link aria-label="home" to="/">
+                  Home
+                </Link>
               </li>
               <li className=" text-base font-normal text-black hover:text-primary cursor-pointer transition-all">
-                Search
+                {" "}
+                <Link aria-label="search" to="/search">
+                  Search
+                </Link>
               </li>
               <li className=" text-base font-normal text-black hover:text-primary cursor-pointer transition-all">
-                How it work
+                <Link aria-label="/HowItWorks" to="/HowItWorks">
+                  How it work
+                </Link>
               </li>
               <li className=" text-base font-normal text-black hover:text-primary cursor-pointer transition-all">
-                Security
+                <Link aria-label="security-page" to="/security-page">
+                  Security
+                </Link>
               </li>
               <li className=" text-base font-normal text-black hover:text-primary cursor-pointer transition-all">
-                Contact us
+                <Link aria-label="Contact us" to="/contact-us">
+                  Contact us
+                </Link>
               </li>
               <li className=" text-base font-normal text-black hover:text-primary cursor-pointer transition-all">
-                All sites
+                <Link aria-label="All sites" to="/AllSitePage">
+                  All sites
+                </Link>
               </li>
               <div className="dropdown inline-block relative">
                 <button className="text-base font-normal text-black hover:text-primary cursor-pointer transition-all inline-flex items-center">
@@ -48,28 +65,34 @@ const Header = () => {
                 </button>
                 <ul className="dropdown-menu absolute top-[-5000%] text-gray-700 w-[100px] pt-1 duration-500 bg-white pb-3 ">
                   <li className="">
-                    <a
+                    <Link
+                      aria-label="blog"
+                      to="/blog"
                       className="rounded-t text-base font-normal text-black hover:text-primary cursor-pointer  py-1 px-4 block whitespace-no-wrap"
                       href="#"
                     >
-                      Bogs
-                    </a>
+                      Blogs
+                    </Link>
                   </li>
-                  <li className="">
-                    <a
+                  <li>
+                    <Link
+                      aria-label="fact"
+                      to="/FactPage"
                       className=" py-1 px-4 text-base font-normal text-black hover:text-primary cursor-pointer block whitespace-no-wrap"
                       href="#"
                     >
                       Facts
-                    </a>
+                    </Link>
                   </li>
                   <li className="">
-                    <a
+                    <Link
+                      aria-label="fact"
+                      to="/aboutUs"
                       className="rounded-b  text-base font-normal text-black hover:text-primary cursor-pointer py-1 px-4 block  !whitespace-no-wrap"
                       href="#"
                     >
                       About us
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
