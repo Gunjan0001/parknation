@@ -56,7 +56,7 @@ const AllSiteLocation = () => {
     <>
       <div className=" container lg:mt-[100px] lg:mb-40 mb-20">
         <div className="flex flex-wrap justify-between w-full">
-            <div className="lg:w-1/2 pe-16">
+            <div className="lg:w-1/2 w-full lg:pe-16">
               <div className="flex items-center w-full justify-between lg:pr-[40px]">
                 <p className="font-normal text-[18px] lg:text-[22px] text-[#020202] font-Poppins">
                   Usa 2343
