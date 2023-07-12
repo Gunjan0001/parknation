@@ -40,6 +40,7 @@ module.exports = {
       backgroundImage: {
         blog: "url('./assests/images/webp/blogbg.webp')",
         herobg: "url('./assests/images/png/hero.png')",
+        collboratebg: "url(./assests/images/png/collabratehomepagebg.png)",
       },
     },
   },
