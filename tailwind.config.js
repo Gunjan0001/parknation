@@ -42,6 +42,7 @@ module.exports = {
         AboutUs: "url('./assests/images/png/aboutUs_bg.png')",
         HowItWork: "url('./assests/images/png/howItWorks_bg.png')",
         touch: "url('./assests/images/png/touch_bg.png')",
+        collboratebg: "url(./assests/images/png/collabratehomepagebg.png)",
       },
     },
   },

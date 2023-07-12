@@ -30,14 +30,14 @@ function PreloderBar() {
       <h1 className=" text-white w-[200px] h-full text-xl text-center">{count}%</h1>
       <div
         className="lg:w-[600px] md:w[300px] w-full mt-3 rounded-full overflow-hidden"
-        style={{ height: "30px", background: "#fff" }}
+        style={{ height: "30px", background: "#000" }}
       >
         <div
           className="rounded-full"
           style={{
             width: `${count}%`,
             height: "100%",
-            background: "#000",
+            background: "#fff",
             transition: "width 0.5s",
           }}
         ></div>
