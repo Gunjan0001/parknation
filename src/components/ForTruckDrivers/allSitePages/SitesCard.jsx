@@ -7,7 +7,7 @@ const SitesCard = () => {
       <h3 className="lg:text-4xl md:text-3xl text-lg font-bold text-black">
         In Nevada 25 Sites
       </h3>
-      <div className="flex flex-wrap lg:mt-20 md:mt-16 sm:mt-10 mt-3">
+      <div className="flex flex-wrap lg:my-20 md:my-16 sm:my-10 my-3">
         {SitesCardData &&
           SitesCardData.map((obj, index) => {
             return (
