@@ -5,6 +5,7 @@ import Contact from "../../common/Contact";
 import Footer from "../../common/Footer";
 import Location from "../../common/Location";
 import AllSiteLocation from "../../ForTruckDrivers/allSitePages/AllSiteLocation";
+import SitesCard from "../../ForTruckDrivers/allSitePages/SitesCard";
 
 const AllSitePage = () => {
   return (
@@ -12,6 +13,7 @@ const AllSitePage = () => {
       <Header />
       <Location />
       <AllSiteMap />
+      <SitesCard/>
       <AllSiteLocation />
       <Contact />
       <Footer />

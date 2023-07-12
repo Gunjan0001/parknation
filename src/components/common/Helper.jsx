@@ -10,7 +10,7 @@ import paymentMethodIcon from "../../assests/images/webp/paymentMethodIcon.webp"
 import privacyIcon from "../../assests/images/webp/privacyIcon.webp";
 import SecurityGuardIcon from "../../assests/images/webp/SecurityGuardIcon.webp";
 import SiteCaedenDeiveTruck from "../../assests/images/webp/SiteCardMenDeiveTruck.webp";
-import SiteCardStar from "../../assests/images/webp/SiteCardStar.webp"
+import SiteCardStar from "../../assests/images/webp/SiteCardStar.webp";
 import {
   PaymentCard,
   ParkingIcon,
@@ -126,13 +126,29 @@ export const SecurityCardData = [
     para: "Nisl leo et eget vel orci vel nibh. Id et ipsum etiam in vitae amet vitae.",
   },
 ];
-export const  SitesCardData = [
- { SiteImg: SiteCaedenDeiveTruck ,
-date:"09 March 2023",
-SiteHead:"Malesuada viverra",
-SiteIcon: SiteCardStar,
-days:"40$/Day",}
-]
+export const SitesCardData = [
+  {
+    SiteImg: SiteCaedenDeiveTruck,
+    date: "09 March 2023",
+    SiteHead: "Malesuada viverra",
+    SiteIcon: SiteCardStar,
+    days: "40$/Day",
+  },
+  {
+    SiteImg: SiteCaedenDeiveTruck,
+    date: "09 March 2023",
+    SiteHead: "Malesuada viverra",
+    SiteIcon: SiteCardStar,
+    days: "40$/Day",
+  },
+  {
+    SiteImg: SiteCaedenDeiveTruck,
+    date: "09 March 2023",
+    SiteHead: "Malesuada viverra",
+    SiteIcon: SiteCardStar,
+    days: "40$/Day",
+  },
+];
 
 export const TeamCardsData = [
   {
