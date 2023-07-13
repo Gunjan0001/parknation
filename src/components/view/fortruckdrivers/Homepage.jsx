@@ -6,18 +6,20 @@ import HeroHowItWorks from "../../ForTruckDrivers/homepage/HeroHowItWorks";
 import ParkingSpace from "../../ForTruckDrivers/homepage/ParkingSpace";
 import Collaborate from "../../ForTruckDrivers/homepage/Collaborate";
 import Camera from "../../ForTruckDrivers/homepage/Camera";
-import Faq from "../../ForTruckDrivers/homepage/Faq";
+import ProcessOfDrivers from "../../ForTruckDrivers/homepage/ProcessOfDrivers";
+// import Faq from "../../ForTruckDrivers/homepage/Faq";
 const Homepage = () => {
   return (
     <>
       <Hero />
       <HeroAboutUs />
       <HeroHowItWorks />
+      <ProcessOfDrivers />
       <EvCharging />
       <ParkingSpace />
       <Collaborate />
       <Camera />
-     <Faq />
+      {/* <Faq /> */}
     </>
   );
 };

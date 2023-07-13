@@ -581,3 +581,19 @@ export const FaqIcon = () => {
     </svg>
   );
 };
+
+export const VideoPlayicon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="65"
+      height="65"
+      viewBox="0 0 65 65"
+      fill="none"
+      className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 cursor-pointer z-10"
+    >
+      <path d="M49 32.5L24.25 46.7894L24.25 18.2106L49 32.5Z" fill="#FAFAFA" />
+      <circle cx="32.5" cy="32.5" r="30.5" stroke="#FAFAFA" stroke-width="4" />
+    </svg>
+  );
+};

@@ -4,7 +4,7 @@ import BlogCards from "../blog/BlogCards";
 const BlogPost = () => {
   return (
     <>
-      <h2>Other blog posts</h2>
+      <h2 className=" text-center mt-32 text-4xl font-bold">Other blog posts</h2>
       <BlogCards />
     </>
   );
