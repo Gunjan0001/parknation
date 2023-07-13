@@ -7,8 +7,8 @@ const SearchPage = () => {
   return (
     <>
       <Header />
-      {/* <Location /> */}
-      {/* <Search /> */}
+      <Location />
+      <Search />
     </>
   );
 };
