@@ -23,15 +23,15 @@ const HeroHowItWorks = () => {
               }}
               className={
                 tab === 0
-                  ? "flex  border-b-[1px] border-b-primary pb-[10px] cursor-pointer"
-                  : "flex  border-b-[1px] border-b-[#bec2ca] pb-[10px] cursor-pointer"
+                  ? "flex  border-b-[1px] border-b-primary hover:border-b-primary duration-300 pb-[10px] cursor-pointer"
+                  : "flex  border-b-[1px] hover:border-b-primary duration-300  border-b-[#bec2ca]   pb-[10px] cursor-pointer"
               }
             >
               <p
                 className={
                   tab === 0
-                    ? " font-semibold text-primary text-base whitespace-nowrap"
-                    : " font-semibold text-black text-base whitespace-nowrap"
+                    ? " font-semibold text-primary text-base whitespace-nowrap hover:text-primary duration-300"
+                    : " font-semibold text-black text-base whitespace-nowrap hover:text-primary duration-300"
                 }
               >
                 Convenient, simple parking
@@ -46,15 +46,15 @@ const HeroHowItWorks = () => {
               }}
               className={
                 tab === 1
-                  ? "flex ps-[33px] border-b-[1px] border-b-primary pb-[10px] cursor-pointer"
-                  : "flex ps-[33px] border-b-[1px] border-b-[#bec2ca] pb-[10px] cursor-pointer"
+                  ? "flex ps-[33px] border-b-[1px] border-b-primary hover:border-b-primary duration-300 pb-[10px] cursor-pointer"
+                  : "flex ps-[33px] border-b-[1px] border-b-[#bec2ca] pb-[10px] cursor-pointer hover:border-b-primary duration-300 "
               }
             >
               <p
                 className={
                   tab === 1
-                    ? " font-semibold text-primary text-base whitespace-nowrap"
-                    : " font-semibold text-black text-base whitespace-nowrap"
+                    ? " font-semibold text-primary text-base whitespace-nowrap hover:text-primary duration-300"
+                    : " font-semibold text-black text-base whitespace-nowrap hover:text-primary duration-300"
                 }
               >
                 Free registration
@@ -69,15 +69,15 @@ const HeroHowItWorks = () => {
               }}
               className={
                 tab === 2
-                  ? "flex ps-[33px] border-b-[1px] border-b-primary pb-[10px] cursor-pointer"
-                  : "flex ps-[33px] border-b-[1px] border-b-[#bec2ca] pb-[10px] cursor-pointer"
+                  ? "flex ps-[33px] border-b-[1px] border-b-primary hover:border-b-primary duration-300 pb-[10px] cursor-pointer"
+                  : "flex ps-[33px] border-b-[1px] border-b-[#bec2ca] pb-[10px] cursor-pointer hover:border-b-primary duration-300 "
               }
             >
               <p
                 className={
                   tab === 2
-                    ? " font-semibold text-primary text-base whitespace-nowrap"
-                    : " font-semibold text-black text-base whitespace-nowrap"
+                    ? " font-semibold text-primary text-base whitespace-nowrap hover:text-primary duration-300"
+                    : " font-semibold text-black text-base whitespace-nowrap hover:text-primary duration-300"
                 }
               >
                 Reserve in advance
@@ -92,15 +92,15 @@ const HeroHowItWorks = () => {
               }}
               className={
                 tab === 3
-                  ? "flex px-[33px] border-b-[1px] border-b-primary pb-[10px] cursor-pointer"
-                  : "flex px-[33px] border-b-[1px] border-b-[#bec2ca] pb-[10px] cursor-pointer"
+                  ? "flex px-[33px] border-b-[1px] border-b-primary hover:border-b-primary duration-300 pb-[10px] cursor-pointer"
+                  : "flex px-[33px] border-b-[1px] border-b-[#bec2ca] pb-[10px] cursor-pointer hover:border-b-primary duration-300 "
               }
             >
               <p
                 className={
                   tab === 3
-                    ? " font-semibold text-primary text-base whitespace-nowrap"
-                    : " font-semibold text-black text-base whitespace-nowrap"
+                    ? " font-semibold text-primary text-base whitespace-nowrap hover:text-primary duration-300"
+                    : " font-semibold text-black text-base whitespace-nowrap hover:text-primary duration-300"
                 }
               >
                 Wide aisles and large parking spaces

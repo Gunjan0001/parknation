@@ -104,7 +104,7 @@ const Header = () => {
               </span>
             </ul>
             <div className="flex xl:ps-[60px] lg:ms-[20px] mt-7 lg:mt-0">
-              <button className=" text-base text-primary font-semibold py-[12px] px-[26px] border-[1px] border-primary rounded-[10px] hover:text-white hover:bg-primary duration-300 ">
+              <button className=" text-base text-primary font-semibold py-[12px] px-[26px] border-[1px] border-primary rounded-[10px] hover:translate-y-[-5px] duration-300 ">
                 Register
               </button>
               <button className=" text-base hover:text-primary ms-[10px] hover:bg-white font-semibold py-[12px] px-[26px] border-[1px] border-primary rounded-[10px] text-white bg-primary duration-300 ">
