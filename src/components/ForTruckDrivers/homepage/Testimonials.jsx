@@ -8,7 +8,7 @@ const Testimonials = () => {
         <h2 className="text-center  font-bold text-4xl text-black">
           Testimonials
         </h2>
-        <div className="flex flex-wrap lg:mt-[55px]">
+        <div className="flex flex-wrap lg:mt-[55px] xl:mt-[20px]">
           {Testimonial.map((obj, i) => {
             return (
               <div className=" lg:w-1/3 my-[20px] " key={i}>
