@@ -23,6 +23,9 @@ const ContactForm = () => {
                 <label htmlFor="message" className="lg:text-base text-sm font-normal text-black">Message</label><br/>
                 <textarea name="" id="" cols="10" rows="5" placeholder="Message*"  className="border border-[rgba(0, 0, 0, 0.20)] py-[11px] pl-[13px] border-r-[5px] !bg-transparent w-full mt-[10px] lg:mb-7 mb-4"></textarea>
               </form>
+              <button className="lg:py-3.5 py-3 lg:px-16 px-10 text-white lg:text-base  border-[1px] border-primary hover:text-primary hover:bg-transparent duration-300 text-sm font-semibold bg-primary rounded-[10px]">
+              Submit
+            </button>
             </div>
             <div className="lg:w-1/2 w-full">
               <img src={calendar} alt="calendar" className="w-full lg:mb-8 mb-4 hover:scale-[1.01] duration-200 ease-linear" />
