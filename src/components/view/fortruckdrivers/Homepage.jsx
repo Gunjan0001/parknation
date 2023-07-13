@@ -6,6 +6,7 @@ import HeroHowItWorks from "../../ForTruckDrivers/homepage/HeroHowItWorks";
 import ParkingSpace from "../../ForTruckDrivers/homepage/ParkingSpace";
 import Collaborate from "../../ForTruckDrivers/homepage/Collaborate";
 import Camera from "../../ForTruckDrivers/homepage/Camera";
+import Faq from "../../ForTruckDrivers/homepage/Faq";
 const Homepage = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const Homepage = () => {
       <ParkingSpace />
       <Collaborate />
       <Camera />
+     <Faq />
     </>
   );
 };
