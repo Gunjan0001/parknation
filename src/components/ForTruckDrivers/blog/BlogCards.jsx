@@ -18,12 +18,12 @@ const BlogCards = () => {
             BlogCardData.slice(0, val).map((obj, index) => {
               return (
                 <div key={index} className="sm:w-1/2 lg:w-1/3 px-4 mt-5">
-                  <div className="bg-[#F2F3F4] rounded-[10px]">
-                      <img
-                        src={obj.BlogImg}
-                        alt="Bloglaptop"
-                        className="w-full"
-                      />
+                  <div className="bg-[#F2F3F4] rounded-[10px] hover:shadow-allsitecard transition-all">
+                    <img
+                      src={obj.BlogImg}
+                      alt="Bloglaptop"
+                      className="w-full"
+                    />
                     <div className=" py-4 px-5">
                       <p className=" text-black font-normal text-base opacity-70 mb-1">
                         {obj.date}

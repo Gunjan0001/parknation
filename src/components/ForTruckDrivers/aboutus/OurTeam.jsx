@@ -18,17 +18,23 @@ const OurTeam = () => {
               TeamCardsData.map((obj, i) => {
                 return (
                   <div className="lg:w-1/3 sm:w-1/2 mt-4 px-3 rounded-[10px]">
-                    <img src={obj.teamImg} alt="team member" className="w-full" />
-                    <div className="px-4 pt-4 pb-6 bg-[#F2F3F4] rounded-b-[10px]">
-                      <p className=" mb-1 font-normal text-base text-[#000] opacity-40">
-                        {obj.position}
-                      </p>
-                      <h2 className=" mb-3 text-[#000] font-normal text-md">
-                        {obj.name}
-                      </h2>
-                      <p className=" font-normal text-base text-[#000] opacity-40">
-                        {obj.desc}
-                      </p>
+                    <div className=" hover:shadow-2xl duration-300">
+                      <img
+                        src={obj.teamImg}
+                        alt="team member"
+                        className="w-full"
+                      />
+                      <div className="px-4 pt-4 pb-6 bg-[#F2F3F4] rounded-b-[10px]">
+                        <p className=" mb-1 font-normal text-base text-[#000] opacity-40">
+                          {obj.position}
+                        </p>
+                        <h2 className=" mb-3 text-[#000] font-normal text-md">
+                          {obj.name}
+                        </h2>
+                        <p className=" font-normal text-base text-[#000] opacity-40">
+                          {obj.desc}
+                        </p>
+                      </div>
                     </div>
                   </div>
                 );

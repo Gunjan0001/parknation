@@ -11,6 +11,8 @@ import OfferParking from "../../ForTruckDrivers/homepage/OfferParking";
 import Licence from "../../ForTruckDrivers/homepage/Licence";
 import BetterSecurity from "../../ForTruckDrivers/homepage/BetterSecurity";
 import Testimonials from "../../ForTruckDrivers/homepage/Testimonials";
+import Contact from "../../common/Contact";
+import Footer from "../../common/Footer";
 
 const Homepage = () => {
   return (
@@ -28,6 +30,8 @@ const Homepage = () => {
       <EvCharging />
       <BetterSecurity />
       <Testimonials />
+      <Contact />
+      <Footer />
     </>
   );
 };

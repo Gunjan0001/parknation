@@ -26,7 +26,7 @@ const ParkNation = () => {
                 expertise, and operations leadership have positioned us as a
                 preferred business partner.
               </p>
-              <div className="w-[148px] h-[49px] px-[26px] py-3.5 bg-red-600 rounded-[10px] text-neutral-50 text-base font-semibold leading-tight">
+              <div className="w-[148px] h-[49px] px-[26px] py-3.5 bg-red-600 hover:bg-white hover:text-primary border border-primary duration-300 rounded-[10px] text-neutral-50 text-base font-semibold leading-tight">
                 Sign Up Now
               </div>
             </div>
