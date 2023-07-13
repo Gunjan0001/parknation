@@ -33,6 +33,7 @@ module.exports = {
       },
       boxShadow: {
         contactusboxshadow: " 0px -6px 42px 0px rgba(16, 0, 0, 0.07)",
+        Testimonalsshadow: "0px 12px 35px 0px rgba(0, 0, 0, 0.10)",
       },
       // backgroundImage: {
       //   blog: "url('../assests/images/webp/blogbg.webp')",
@@ -41,6 +42,7 @@ module.exports = {
         blog: "url('./assests/images/webp/blogbg.webp')",
         herobg: "url('./assests/images/png/hero.png')",
         collboratebg: "url(./assests/images/png/collabratehomepagebg.png)",
+        bettersecuritybg: "url(./assests/images/png/bettersecuritybg.png)",
       },
     },
   },

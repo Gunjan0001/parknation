@@ -118,3 +118,35 @@ export const Rightsidearrow = () => {
     </svg>
   );
 };
+export const Rightbox = () => {
+  return (
+    <svg
+      width="21"
+      height="21"
+      viewBox="0 0 21 21"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="10.5" cy="10.5" r="10.5" fill="#EB2022" />
+      <mask
+        id="mask0_847_2273"
+        style="mask-type:luminance"
+        maskUnits="userSpaceOnUse"
+        x="4"
+        y="6"
+        width="13"
+        height="10"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M4 10.875L5.625 9.25L8.875 12.5L15.375 6L17 7.625L8.875 15.75L4 10.875Z"
+          fill="white"
+        />
+      </mask>
+      <g mask="url(#mask0_847_2273)">
+        <path d="M2.69995 3.0752H18.3V18.6752H2.69995V3.0752Z" fill="#FAFAFA" />
+      </g>
+    </svg>
+  );
+};

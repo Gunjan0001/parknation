@@ -6,16 +6,24 @@ import HeroHowItWorks from "../../ForTruckDrivers/homepage/HeroHowItWorks";
 import ParkingSpace from "../../ForTruckDrivers/homepage/ParkingSpace";
 import Collaborate from "../../ForTruckDrivers/homepage/Collaborate";
 import Camera from "../../ForTruckDrivers/homepage/Camera";
+import OfferParking from "../../ForTruckDrivers/homepage/OfferParking";
+import Licence from "../../ForTruckDrivers/homepage/Licence";
+import BetterSecurity from "../../ForTruckDrivers/homepage/BetterSecurity";
+import Testimonials from "../../ForTruckDrivers/homepage/Testimonials";
 const Homepage = () => {
   return (
     <>
       <Hero />
       <HeroAboutUs />
       <HeroHowItWorks />
-      <EvCharging />
       <ParkingSpace />
+      <OfferParking />
       <Collaborate />
       <Camera />
+      <Licence />
+      <EvCharging />
+      <BetterSecurity />
+      <Testimonials />
     </>
   );
 };
