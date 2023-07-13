@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Rightsidearrow } from "../../common/Icon";
 import redcar from "../../../assests/images/png/redcar.png";
+import registation from "../../../assests/images/png/dotsmany.png";
+import advance from "../../../assests/images/png/advance.png";
+import spaces from "../../../assests/images/png/spaces.png";
 const HeroHowItWorks = () => {
   const [tab, setTab] = useState(0);
   return (
@@ -131,15 +134,13 @@ const HeroHowItWorks = () => {
                   : "hidden lg:ms-[50px]"
               }
             >
-              <img src={redcar} alt="redcar how its wroks" />
+              <img src={registation} alt="registation how its wroks" />
               <div className="sm:ms-[46px]">
-                <p className="text-base font-normal text-[#000000] opacity-[.7]">
-                  Lorem ipsum dolor sit amet consectetur. Dignissim sit euismod
-                  dictumst id duis felis sed.
-                </p>
-                <p className="text-base font-normal text-[#000000] opacity-[.7]">
-                  Lorem ipsum dolor sit amet consectetur. Dignissim sit euismod
-                  dictumst id duis felis sed. Hendrerit
+                <p className="text-base font-normal text-[#000000] opacity-[.7] md:me-[70px]">
+                  Vulputate pellentesque adipiscing aliquam velit. Quis rhoncus
+                  cursus donec morbi placerat tristique odio. Arcu sed tellus
+                  aliquet mattis. Leo tortor integer fusce in. Gravida tortor
+                  aliquet suspendisse sem nec morbi erat.
                 </p>
               </div>
             </div>
@@ -150,15 +151,15 @@ const HeroHowItWorks = () => {
                   : "hidden lg:ms-[50px]"
               }
             >
-              <img src={redcar} alt="redcar how its wroks" />
+              <img src={advance} alt="advance how its wroks" />
               <div className="sm:ms-[46px]">
                 <p className="text-base font-normal text-[#000000] opacity-[.7]">
-                  Lorem ipsum dolor sit amet consectetur. Dignissim sit euismod
-                  dictumst id duis felis sed. Hendrerit
+                  Mattis sed sagittis vel amet sed et dignissim. Tristique
+                  adipiscing et varius quisque amet.
                 </p>
                 <p className="text-base font-normal text-[#000000] opacity-[.7]">
-                  Lorem ipsum dolor sit amet consectetur. Dignissim sit euismod
-                  dictumst id duis felis sed.
+                  Faucibus tortor viverra sagittis et bibendum in volutpat
+                  maecenas dignissim. Lacinia ultrices ac
                 </p>
               </div>
             </div>{" "}
@@ -169,15 +170,15 @@ const HeroHowItWorks = () => {
                   : "hidden lg:ms-[50px]"
               }
             >
-              <img src={redcar} alt="redcar how its wroks" />
+              <img src={spaces} alt="spaces how its wroks" />
               <div className="sm:ms-[46px]">
                 <p className="text-base font-normal text-[#000000] opacity-[.7]">
-                  Lorem ipsum dolor sit amet Dignissim sit euismod dictumst id
-                  duis felis sed. Hendrerit
+                  Adipiscing elementum amet ut in id sed libero odio elit.
+                  Dictum scelerisque tempor elit cursus
                 </p>
                 <p className="text-base font-normal text-[#000000] opacity-[.7]">
-                  Lorem dolor sit amet consectetur. Dignissim sit euismod
-                  dictumst id duis felis sed. Hendrerit
+                  faucibus tempus iaculis. Tellus eget eget quam fusce lorem
+                  ullamcorper etiam pretium nunc.
                 </p>
               </div>
             </div>

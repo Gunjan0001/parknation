@@ -32,6 +32,17 @@ import {
   Security,
   SpaceTruck,
 } from "./Icon";
+import truckspace from "../../assests/images/png/truckspace.png";
+import cameraeverywhere from "../../assests/images/png/cameraeverywhere.png";
+import arrangement from "../../assests/images/png/arangement.png";
+import charging from "../../assests/images/png/chargingpoint.png";
+import fluestation from "../../assests/images/png/fuelstation.png";
+import fullsecurity from "../../assests/images/png/fullsecurity.png";
+import machanics from "../../assests/images/png/machinesavai.png";
+import monthlyplan from "../../assests/images/png/monthlyplan.png";
+import wadewarren from "../../assests/images/png/warmen.png";
+import edwards from "../../assests/images/png/adwards.png";
+import jacobjanes from "../../assests/images/png/jj.png";
 // blog cards map data
 export const BlogCardData = [
   {
@@ -287,5 +298,59 @@ export const techSupportOuestionsHomePage = [
       "Q.5 What special training or knowledge do i need to be able to use the PN+ Software?",
     answers:
       "The system is designed to be both user friendly and simple to use. With minimal usage you should be able to quickly become familiar with the entire system and its capabilities.",
+  },
+];
+export const Offers = [
+  {
+    icon: truckspace,
+    title: "We give space to Trucks",
+  },
+  {
+    icon: monthlyplan,
+    title: "We also have Monthly plan",
+  },
+  {
+    icon: arrangement,
+    title: "Well arrangement in parking",
+  },
+  {
+    icon: charging,
+    title: "We provide EV charging point",
+  },
+  {
+    icon: cameraeverywhere,
+    title: "We install Camera’s Everywhere",
+  },
+  {
+    icon: fluestation,
+    title: "We Have Fuel Station",
+  },
+  {
+    icon: fullsecurity,
+    title: "We provide full security",
+  },
+  {
+    icon: machanics,
+    title: "24/7 mechanics Available ",
+  },
+];
+export const Testimonial = [
+  {
+    img: wadewarren,
+    name: "Wade Warren",
+    title: "Manger",
+    pera: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words",
+  },
+  {
+    img: edwards,
+    name: "Ralph Edwards",
+    title: "Manger",
+    pera: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words",
+  },
+  {
+    img: jacobjanes,
+    name: "Jacob Jones",
+    title: "Manger",
+    pera: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words",
   },
 ];
