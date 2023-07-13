@@ -227,3 +227,65 @@ export const LocationInformationsData = [
     heading: "We provide full security",
   },
 ];
+export const faqTabsHomePage = [
+  {
+    heading: "Customer Questions",
+  },
+  {
+    heading: "Tech Support Questions",
+  },
+];
+export const customerOuestionsHomePage = [
+  {
+    questions:
+      "Q.1 What special training or knowledge do i need to be able to use the PN+ Software?",
+    answers:
+      "The system is designed to be both user friendly and simple to use. With minimal usage you should be able to quickly become familiar with the entire system and its capabilities.",
+  },
+  {
+    questions: "Q.2 What equipment do i need to have or install this system?",
+    answers:
+      "The system is designed to be both user friendly and simple to use. With minimal usage you should be able to quickly become familiar with the entire system and its capabilities.",
+  },
+  {
+    questions: "Q.3 How soon can i begin to use this system?",
+    answers:
+      "The system is designed to be both user friendly and simple to use. With minimal usage you should be able to quickly become familiar with the entire system and its capabilities.",
+  },
+  {
+    questions:
+      "Q.4 Our facility is a small family owned business, we do not even have an onsite office, can i still use the PN+ system & software?",
+    answers:
+      "The system is designed to be both user friendly and simple to use. With minimal usage you should be able to quickly become familiar with the entire system and its capabilities.",
+  },
+];
+export const techSupportOuestionsHomePage = [
+  {
+    questions:
+      "Q.1 What special training or knowledge do i need to be able to use the PN+ Software?",
+    answers:
+      "The system is designed to be both user friendly and simple to use. With minimal usage you should be able to quickly become familiar with the entire system and its capabilities.",
+  },
+  {
+    questions: "Q.2 What equipment do i need to have or install this system?",
+    answers:
+      "The system is designed to be both user friendly and simple to use. With minimal usage you should be able to quickly become familiar with the entire system and its capabilities.",
+  },
+  {
+    questions: "Q.3 How soon can i begin to use this system?",
+    answers:
+      "The system is designed to be both user friendly and simple to use. With minimal usage you should be able to quickly become familiar with the entire system and its capabilities.",
+  },
+  {
+    questions:
+      "Q.4 Our facility is a small family owned business, we do not even have an onsite office, can i still use the PN+ system & software?",
+    answers:
+      "The system is designed to be both user friendly and simple to use. With minimal usage you should be able to quickly become familiar with the entire system and its capabilities.",
+  },
+  {
+    questions:
+      "Q.5 What special training or knowledge do i need to be able to use the PN+ Software?",
+    answers:
+      "The system is designed to be both user friendly and simple to use. With minimal usage you should be able to quickly become familiar with the entire system and its capabilities.",
+  },
+];
