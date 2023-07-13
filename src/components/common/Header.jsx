@@ -8,10 +8,9 @@ const Header = () => {
     <nav className="bg-white">
       <div className="container">
         <div className="flex justify-between items-center">
-          {" "}
           <Link aria-label="logo" to="/">
             <img
-              className="my-[12px] max-w-[76px] w-full  cursor-pointer"
+              className="my-[12px] max-w-[76px] w-full cursor-pointer"
               src={pagelogo}
               alt="pagelogo"
             />
@@ -31,13 +30,12 @@ const Header = () => {
                 </Link>
               </li>
               <li className=" text-base font-normal text-black hover:text-primary cursor-pointer transition-all">
-                {" "}
                 <Link aria-label="search" to="/search">
                   Search
                 </Link>
               </li>
               <li className=" text-base font-normal text-black hover:text-primary cursor-pointer transition-all">
-                <Link aria-label="/HowItWorks" to="/HowItWorks">
+                <Link aria-label="/HowItWorks" to="/howItWorks">
                   How it work
                 </Link>
               </li>
@@ -47,12 +45,12 @@ const Header = () => {
                 </Link>
               </li>
               <li className=" text-base font-normal text-black hover:text-primary cursor-pointer transition-all">
-                <Link aria-label="GetInTouch" to="/GetInTouch">
+                <Link aria-label="GetInTouch" to="/contact-us">
                   Contact us
                 </Link>
               </li>
               <li className=" text-base font-normal text-black hover:text-primary cursor-pointer transition-all">
-                <Link aria-label="All sites" to="/AllSitePage">
+                <Link aria-label="All sites" to="/allSitePage">
                   All sites
                 </Link>
               </li>
@@ -77,14 +75,14 @@ const Header = () => {
                   <li>
                     <Link
                       aria-label="fact"
-                      to="/FactPage"
+                      to="/factPage"
                       className=" py-1 px-4 text-base font-normal text-black hover:text-primary cursor-pointer block whitespace-no-wrap"
                       href="#"
                     >
                       Facts
                     </Link>
                   </li>
-                  <li className="">
+                  <li>
                     <Link
                       aria-label="fact"
                       to="/aboutUs"
@@ -104,12 +102,20 @@ const Header = () => {
               </span>
             </ul>
             <div className="flex xl:ps-[60px] lg:ms-[20px] mt-7 lg:mt-0">
-              <button className=" text-base text-primary font-semibold py-[12px] px-[26px] border-[1px] border-primary rounded-[10px] hover:text-white hover:bg-primary duration-300 ">
-                Register
-              </button>
-              <button className=" text-base hover:text-primary ms-[10px] hover:bg-white font-semibold py-[12px] px-[26px] border-[1px] border-primary rounded-[10px] text-white bg-primary duration-300 ">
-                Log in
-              </button>
+                <Link
+                  aria-label="fact"
+                  to="/log-in"
+                  className="text-base text-primary font-semibold py-[12px] px-[26px] border-[1px] border-primary rounded-[10px] hover:text-white hover:bg-primary duration-300  "
+                >
+                  Register
+                </Link>
+                <Link
+                  aria-label="fact"
+                  to="/log-in"
+                  className=" text-base hover:text-primary ms-[10px] hover:bg-white font-semibold py-[12px] px-[26px] border-[1px] border-primary rounded-[10px] text-white bg-primary duration-300 "
+                >
+                  Log in
+                </Link>
             </div>
           </div>
           <div>
