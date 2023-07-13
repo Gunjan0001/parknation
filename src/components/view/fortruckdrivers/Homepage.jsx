@@ -28,7 +28,6 @@ const Homepage = () => {
       <EvCharging />
       <BetterSecurity />
       <Testimonials />
-    
     </>
   );
 };

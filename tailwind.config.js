@@ -33,11 +33,8 @@ module.exports = {
       },
       boxShadow: {
         contactusboxshadow: " 0px -6px 42px 0px rgba(16, 0, 0, 0.07)",
-<<<<<<< HEAD
         allsitecard: "0px 0px 30.92222023010254px 0px rgba(0, 0, 0, 0.16)",
-=======
         Testimonalsshadow: "0px 12px 35px 0px rgba(0, 0, 0, 0.10)",
->>>>>>> 15b897fa168404bc4c3acf0938b97fca63d5ad53
       },
       backgroundImage: {
         blog: "url('./assests/images/webp/blogbg.webp')",

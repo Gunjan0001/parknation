@@ -2,11 +2,10 @@ import React from "react";
 import MenWithMobile from "../../../assests/images/webp/MenWithMobile.webp";
 import MenWithMobileTruck from "../../../assests/images/webp/Blog-detailMenWithMobileTruck.webp";
 
-
 const Management = () => {
   return (
     <>
-      <div className="container">
+      <div className="container mt-[70px]">
         <div className="lg:max-w-[873px] w-full">
           <h2 className="lg:text-4xl md:text-3xl text-md text-black font-bold lg:mb-[17px] mb-[12px] leading-normal">
             Excel spreadsheets make it difficult to scale, collaborate, and
@@ -105,8 +104,6 @@ const Management = () => {
           </p>
         </div>
       </div>
-       
-      
     </>
   );
 };

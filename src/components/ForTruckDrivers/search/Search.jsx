@@ -1,7 +1,5 @@
 import React, { useRef } from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import track1 from "../../../assests/images/webp/search_track1.webp";
 import track2 from "../../../assests/images/webp/search_track2.webp";
 import map from "../../../assests/images/png/map.png";
