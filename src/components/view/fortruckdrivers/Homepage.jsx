@@ -7,11 +7,11 @@ import ParkingSpace from "../../ForTruckDrivers/homepage/ParkingSpace";
 import Collaborate from "../../ForTruckDrivers/homepage/Collaborate";
 import Camera from "../../ForTruckDrivers/homepage/Camera";
 import ProcessOfDrivers from "../../ForTruckDrivers/homepage/ProcessOfDrivers";
-// import Faq from "../../ForTruckDrivers/homepage/Faq";
 import OfferParking from "../../ForTruckDrivers/homepage/OfferParking";
 import Licence from "../../ForTruckDrivers/homepage/Licence";
 import BetterSecurity from "../../ForTruckDrivers/homepage/BetterSecurity";
 import Testimonials from "../../ForTruckDrivers/homepage/Testimonials";
+
 const Homepage = () => {
   return (
     <>
@@ -24,11 +24,11 @@ const Homepage = () => {
       <OfferParking />
       <Collaborate />
       <Camera />
-      {/* <Faq /> */}
       <Licence />
       <EvCharging />
       <BetterSecurity />
       <Testimonials />
+    
     </>
   );
 };
