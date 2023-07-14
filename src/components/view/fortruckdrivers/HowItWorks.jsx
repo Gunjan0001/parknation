@@ -2,7 +2,6 @@ import React from "react";
 import Header from "../../common/Header";
 import Benifits from "../../ForTruckDrivers/howitwork/Benifits";
 import CommonHero from "../../common/CommonHero";
-import HeroHowItWorks from "../../ForTruckDrivers/homepage/HeroHowItWorks";
 import Contact from "../../common/Contact";
 import Footer from "../../common/Footer";
 import ProcessOfDrivers from "../../ForTruckDrivers/homepage/ProcessOfDrivers";

@@ -110,14 +110,14 @@ const Header = () => {
               <Link
                 aria-label="fact"
                 to="/log-in"
-                className="text-base text-primary font-semibold py-[12px] px-[26px] border-[1px] border-primary rounded-[10px] hover:text-white hover:bg-primary duration-300  "
+                className="text-base text-primary font-semibold py-[12px] px-[26px] border-[1px] border-primary rounded-[10px]  hover:translate-y-[-5px] duration-300  "
               >
                 Register
               </Link>
               <Link
                 aria-label="fact"
                 to="/log-in"
-                className=" text-base hover:text-primary ms-[10px] hover:bg-white font-semibold py-[12px] px-[26px] border-[1px] border-primary rounded-[10px] text-white bg-primary duration-300 "
+                className=" text-base ms-[10px] font-semibold hover:translate-y-[-5px] py-[12px] px-[26px] border-[1px] border-primary rounded-[10px] text-white bg-primary duration-300 "
               >
                 Log in
               </Link>
