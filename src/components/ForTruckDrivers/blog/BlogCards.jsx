@@ -35,7 +35,7 @@ const BlogCards = () => {
                         {obj.BlogPara}
                       </p>
                       <p className="text-primary font-normal text-base">
-                        {obj.ReadMore}{" "}
+                        {obj.ReadMore}
                       </p>
                     </div>
                   </div>
