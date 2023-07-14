@@ -1,6 +1,7 @@
 import React from "react";
 import TrucksParking from "../../assests/images/webp/recovery_code.webp";
 import { RedCoppyBtn, RedQuestionMark } from "../../components/common/Icon";
+import FormNav from "../common/FormNav";
 
 const Code = () => {
   const submitData = (e) => {
@@ -8,6 +9,7 @@ const Code = () => {
   };
   return (
     <>
+      <FormNav/>
       <section className="flex h-screen overflow-x-hidden bg-[#FAFAFA]">
         <div className="flex items-center w-full">
           <div className="w-[55%] hidden md:block">

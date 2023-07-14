@@ -6,6 +6,7 @@ import HeroHowItWorks from "../../ForTruckDrivers/homepage/HeroHowItWorks";
 import Contact from "../../common/Contact";
 import Footer from "../../common/Footer";
 import ProcessOfDrivers from "../../ForTruckDrivers/homepage/ProcessOfDrivers";
+import CustomerSignUp from "./CustomerSignUp";
 
 const HowItWorks = () => {
   const commonHero = {
@@ -16,7 +17,7 @@ const HowItWorks = () => {
     <>
       <Header />
       <CommonHero commonHero={commonHero} />
-      <HeroHowItWorks />
+      <CustomerSignUp />
       <Benifits />
       <ProcessOfDrivers />
       <Contact />

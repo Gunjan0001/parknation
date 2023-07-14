@@ -2,6 +2,7 @@ import React from "react";
 import BlueTruck from "../../assests/images/webp/sign_in.webp";
 import { FacebookLogo, Google } from "../../components/common/Icon";
 import { Link } from "react-router-dom";
+import FormNav from "../common/FormNav";
 
 const SignIn = () => {
   const submitData = (e) => {
@@ -9,6 +10,7 @@ const SignIn = () => {
   };
   return (
     <>
+      <FormNav/>
       <section className="flex h-screen overflow-x-hidden bg-[#FAFAFA]">
         <div className="flex items-center w-full">
           <div className="w-[55%] hidden md:block">

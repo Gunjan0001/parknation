@@ -1,10 +1,12 @@
 import React from "react";
 import AuthenticarTruck from "../../assests/images/webp/authenticator-truck.webp";
 import QRCode from "../../assests/images/png/qrCode.png";
+import FormNav from "../common/FormNav";
 
 const Authenticator = () => {
   return (
     <>
+      <FormNav />
       <section className="flex h-screen overflow-x-hidden bg-white">
         <div className="flex items-center w-full gap-4">
           <div className="w-[55%] hidden md:block">

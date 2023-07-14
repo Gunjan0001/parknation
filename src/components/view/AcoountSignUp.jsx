@@ -1,11 +1,9 @@
 import React from "react";
 import WhiteParking from "../../assests/images/webp/account_sign_up.webp";
 import microsoft from "../../assests/images/png/microsoft_logo.png";
-import {
-  GoogleIcon,
-  PasswordShowIcon,
-} from "../../components/common/Icon";
+import { GoogleIcon, PasswordShowIcon } from "../../components/common/Icon";
 import { Link } from "react-router-dom";
+import FormNav from "../common/FormNav";
 
 const AccountSignUp = () => {
   const submitData = (e) => {
@@ -13,6 +11,7 @@ const AccountSignUp = () => {
   };
   return (
     <>
+      <FormNav />
       <section className="flex overflow-x-hidden bg-[#FAFAFA]">
         <div className="flex items-center w-full">
           <div className="w-[55%] hidden md:block">
@@ -123,13 +122,12 @@ const AccountSignUp = () => {
               or
             </p>
             <div className="flex items-center justify-center mt-[30px] xl:mt-[40px] gap-[20px]">
-            
-                <GoogleIcon className="w-[28px]" />
-                <img
-                  src={microsoft}
-                  alt="microsoft"
-                  className="w-full max-w-[56px]"
-                />
+              <GoogleIcon className="w-[28px]" />
+              <img
+                src={microsoft}
+                alt="microsoft"
+                className="w-full max-w-[56px]"
+              />
             </div>
           </div>
         </div>

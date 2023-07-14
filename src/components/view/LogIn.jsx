@@ -3,10 +3,12 @@ import BlueTruck2 from "../../assests/images/webp/bluetruck2.webp";
 import { GoogleIcon } from "../../components/common/Icon";
 import { Link } from "react-router-dom";
 import microsoft from "../../assests/images/png/microsoft_logo.png";
+import FormNav from "../common/FormNav";
 
 const Login = () => {
   return (
     <>
+      <FormNav/>
       <section className="flex h-screen overflow-x-hidden bg-white">
         <div className="flex items-center w-full">
           <div className="w-[55%] hidden md:block">

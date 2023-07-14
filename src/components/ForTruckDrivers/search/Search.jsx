@@ -56,7 +56,10 @@ const Search = () => {
       <div className=" container lg:mt-[100px]">
         <div className="flex justify-between w-full flex-col lg:flex-row">
           <div className="lg:w-[47%] my-10 lg:mt-0">
-            <div className="flex items-center w-full justify-between lg:pr-[40px]">
+            <div
+              data-aos="zoom-in-left"
+              className="flex items-center w-full justify-between lg:pr-[40px]"
+            >
               <p className="font-normal text-[18px] lg:text-[22px] text-[#020202] font-Poppins">
                 Usa 2343
               </p>
@@ -64,7 +67,7 @@ const Search = () => {
                 $40.00
               </p>
             </div>
-            <div className="relative ">
+            <div data-aos="zoom-in-right" className="relative ">
               <div
                 className="absolute left-0 top-[45%] cursor-pointer"
                 onClick={() => slider.current.slickPrev()}
@@ -170,11 +173,14 @@ const Search = () => {
                 </p>
               </div>
             </div>
-            <button className="px-[51px] h-[49px] py-[12px] text-base font-semibold bg-primary text-white  border-[1px] border-primary hover:text-primary hover:bg-white duration-300 rounded-[10px] mt-[53px]">
+            <button className="px-[51px] rounded-[10px] h-[49px] py-[12px] text-base font-semibold bg-primary text-white  border-[1px] border-primary hover:text-primary hover:bg-white duration-300  mt-[53px]">
               Book Now
             </button>
           </div>
-          <div className="w-full lg:w-[50%] mx-auto lg:mr-auto">
+          <div
+            data-aos="zoom-in-left"
+            className="w-full lg:w-[50%] mx-auto lg:mr-auto"
+          >
             <img src={map} alt="map" />
           </div>
         </div>

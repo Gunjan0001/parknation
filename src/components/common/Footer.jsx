@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 import footerlogo from "../../../src/assests/images/webp/footerlogo.webp";
-import {Facebook} from "../../components/common/Icon"
-import {Twitter} from "../../components/common/Icon"
-import {Instagram} from "../../components/common/Icon"
-import PlayStore from "../../../src/assests/images/png/PlayStore.png"
-import AppStore from "../../../src/assests/images/png/AppStore.png"
+import { Facebook } from "../../components/common/Icon";
+import { Twitter } from "../../components/common/Icon";
+import { Instagram } from "../../components/common/Icon";
+import PlayStore from "../../../src/assests/images/png/PlayStore.png";
+import AppStore from "../../../src/assests/images/png/AppStore.png";
 
 const Footer = () => {
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
             <img
               src={footerlogo}
               alt="menwithtruck"
-              className="w-[104px] h-[104] mb-[22px]"
+              className="w-[104px] h-[104] mb-[22px] cursor-pointer"
             />
             <p className="text-base font-normal text-white opacity-[0.6000000238418579] max-w-[198px] mb-[12px]">
               350 Berlin cross keys Rd, Sicklerville, NJ 08081, USA
@@ -38,36 +38,36 @@ const Footer = () => {
                 Quick Links
               </h4>
               <ul>
-                <li className="mt-2.5 text-base font-normal text-white hover:opacity-100 opacity-[0.699999988079071]">
-                  <a href="#"> Search</a>
+                <li className="mt-2.5 text-base font-normal text-white opacity-[0.699999988079071] hover:opacity-[1]">
+                  <a href=""> Search</a>
                 </li>
-                <li className="mt-2.5 text-base font-normal text-white hover:opacity-100 opacity-[0.699999988079071]">
-                  <a href="#">About us</a>
+                <li className="mt-2.5 text-base font-normal text-white opacity-[0.699999988079071] hover:opacity-[1]">
+                  <a href="">About us</a>
                 </li>
-                <li className="mt-2.5 text-base font-normal text-white hover:opacity-100 opacity-[0.699999988079071]">
-                  <a href="#">Features</a>
+                <li className="mt-2.5 text-base font-normal text-white opacity-[0.699999988079071] hover:opacity-[1]">
+                  <a href="">Features</a>
                 </li>
-                <li className="mt-2.5 text-base font-normal text-white hover:opacity-100 opacity-[0.699999988079071]">
-                  <a href="#">How it work</a>
+                <li className="mt-2.5 text-base font-normal text-white opacity-[0.699999988079071] hover:opacity-[1]">
+                  <a href="">How it work</a>
                 </li>
-                <li className="mt-2.5 text-base font-normal text-white hover:opacity-100 opacity-[0.699999988079071]">
-                  <a href="#">Blogs</a>
+                <li className="mt-2.5 text-base font-normal text-white opacity-[0.699999988079071] hover:opacity-[1]">
+                  <a href="">Blogs</a>
                 </li>
               </ul>
             </div>
             <div className="mt-[34px] w-1/2">
               <ul>
-                <li className="text-base font-normal text-white hover:opacity-100 opacity-[0.699999988079071]">
-                  <a href="#">Security</a>
+                <li className="text-base font-normal text-white opacity-[0.699999988079071] hover:opacity-[1]">
+                  <a href="">Security</a>
                 </li>
-                <li className="mt-2.5 text-base font-normal text-white hover:opacity-100 opacity-[0.699999988079071]">
-                  <a href="#">Contact us</a>
+                <li className="mt-2.5 text-base font-normal text-white opacity-[0.699999988079071] hover:opacity-[1]">
+                  <a href="">Contact us</a>
                 </li>
-                <li className="mt-2.5 text-base font-normal text-white hover:opacity-100 opacity-[0.699999988079071]">
-                  <a href="#">Facts</a>
+                <li className="mt-2.5 text-base font-normal text-white opacity-[0.699999988079071] hover:opacity-[1]">
+                  <a href="">Facts</a>
                 </li>
-                <li className="mt-2.5 text-base font-normal text-white hover:opacity-100 opacity-[0.699999988079071]">
-                  <a href="#">All sites page</a>
+                <li className="mt-2.5 text-base font-normal text-white opacity-[0.699999988079071] hover:opacity-[1]">
+                  <a href="">All sites page</a>
                 </li>
               </ul>
             </div>
@@ -82,11 +82,21 @@ const Footer = () => {
                 Download the app now
               </h4>
               <div className="flex gap-[12px]">
-                <a href="https://play.google.com/store/games">
-                  <img src={PlayStore} alt="" className="w-[107px] h-[32px]" />
+                <a href="https://play.google.com/">
+                  {" "}
+                  <img
+                    src={PlayStore}
+                    alt="PlayStore"
+                    className="w-[107px] h-[32px]"
+                  />
                 </a>
                 <a href="https://www.apple.com/in/app-store/">
-                  <img src={AppStore} alt="" className="w-[107px] h-[32px]" />
+                  {" "}
+                  <img
+                    src={AppStore}
+                    alt="AppStore"
+                    className="w-[107px] h-[32px]"
+                  />
                 </a>
               </div>
             </div>
@@ -98,6 +108,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-}
+};
 
-export default Footer
+export default Footer;

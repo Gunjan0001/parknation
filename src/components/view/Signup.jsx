@@ -2,11 +2,12 @@ import React from "react";
 import BlueTruck from "../../assests/images/webp/bluetruck.webp";
 import { GoogleIcon } from "../../components/common/Icon";
 import microsoft from "../../assests/images/png/microsoft_logo.png";
-
+import FormNav from "../common/FormNav";
 
 const SignUp = () => {
   return (
     <>
+      <FormNav />
       <section className="flex h-screen overflow-x-hidden bg-white">
         <div className="flex items-center w-full gap-4">
           <div className="w-[55%] hidden md:block">

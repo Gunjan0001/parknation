@@ -4,8 +4,13 @@ import { Link } from "react-router-dom";
 import { CrossIcon } from "./Icon";
 const Header = () => {
   const [nav, setNav] = useState(true);
+  if (nav) {
+    document.body.classList.remove("overflow-hidden");
+  } else {
+    document.body.classList.add("overflow-hidden");
+  }
   return (
-    <nav className="bg-white">
+    <nav className="bg-white relative !z-[500px]">
       <div className="container">
         <div className="flex justify-between items-center">
           <Link aria-label="logo" to="/">
@@ -16,7 +21,7 @@ const Header = () => {
             />
           </Link>
           <div
-            className={`flex items-center duration-300 lg:flex-row flex-col fixed z-[10px] lg:relative bg-gray-50 lg:bg-white h-full w-full  justify-center lg:justify-end 
+            className={`flex items-center z-50 duration-300 lg:flex-row flex-col fixed lg:relative bg-gray-50 lg:bg-white h-full w-full  justify-center lg:justify-end 
              ${
                nav === true
                  ? "left-[100%] bottom-[100%] lg:bottom-0 lg:left-0"
@@ -61,7 +66,7 @@ const Header = () => {
                     <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                   </svg>
                 </button>
-                <ul className="dropdown-menu absolute top-[-5000%] text-gray-700 w-[100px] pt-1 duration-500 bg-white pb-3 ">
+                <ul className="dropdown-menu absolute top-[-10000%] text-gray-700 w-[100px] pt-1 duration-500 bg-white pb-3 ">
                   <li className="">
                     <Link
                       aria-label="blog"
@@ -102,20 +107,20 @@ const Header = () => {
               </span>
             </ul>
             <div className="flex xl:ps-[60px] lg:ms-[20px] mt-7 lg:mt-0">
-                <Link
-                  aria-label="fact"
-                  to="/log-in"
-                  className="text-base text-primary font-semibold py-[12px] px-[26px] border-[1px] border-primary rounded-[10px] hover:text-white hover:bg-primary duration-300  "
-                >
-                  Register
-                </Link>
-                <Link
-                  aria-label="fact"
-                  to="/log-in"
-                  className=" text-base hover:text-primary ms-[10px] hover:bg-white font-semibold py-[12px] px-[26px] border-[1px] border-primary rounded-[10px] text-white bg-primary duration-300 "
-                >
-                  Log in
-                </Link>
+              <Link
+                aria-label="fact"
+                to="/log-in"
+                className="text-base text-primary font-semibold py-[12px] px-[26px] border-[1px] border-primary rounded-[10px] hover:text-white hover:bg-primary duration-300  "
+              >
+                Register
+              </Link>
+              <Link
+                aria-label="fact"
+                to="/log-in"
+                className=" text-base hover:text-primary ms-[10px] hover:bg-white font-semibold py-[12px] px-[26px] border-[1px] border-primary rounded-[10px] text-white bg-primary duration-300 "
+              >
+                Log in
+              </Link>
             </div>
           </div>
           <div>

@@ -5,7 +5,7 @@ const ProvideBestSecurity = () => {
   return (
     <>
       <section className="container mt-5 mb-20">
-        <div className="flex flex-wrap items-center">
+        <div data-aos="zoom-in-left" className="flex flex-wrap items-center">
           <div className="md:w-1/2 w-full">
             <h2 className="mb-4 text-black lg:text-4xl text-3xl font-bold">
               We Try To Provides Best Security

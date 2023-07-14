@@ -13,6 +13,7 @@ import BetterSecurity from "../../ForTruckDrivers/homepage/BetterSecurity";
 import Testimonials from "../../ForTruckDrivers/homepage/Testimonials";
 import Contact from "../../common/Contact";
 import Footer from "../../common/Footer";
+import CustomerSignUp from "./CustomerSignUp";
 
 const Homepage = () => {
   return (

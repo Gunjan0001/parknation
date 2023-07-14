@@ -12,7 +12,7 @@ const SitesCard = () => {
           SitesCardData.map((obj, index) => {
             return (
               <div key={index} className="sm:w-1/2 lg:w-1/3 px-3 w-full lg:mt-0 mt-4">
-                <div className="rounded-[14px] shadow-allsitecard border-[2px] border-[transparent] hover:border-[2px] hover:border-[#EB2022] ease-linear duration-200">
+                <div data-aos="zoom-out-down" className="rounded-[14px] shadow-allsitecard border-[2px] border-[transparent] hover:border-[2px] hover:border-[#EB2022] ease-linear duration-200">
                   <img
                     src={obj.SiteImg}
                     alt="SiteDriver"

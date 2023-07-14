@@ -27,7 +27,7 @@ const Management = () => {
           <h3 className="lg:text-md text-base font-bold text-[#020202] lg:mb-4 mb-3">
             TLDR - Here's what you need to know:
           </h3>
-          <ul className="list-disc ml-5">
+          <ul data-aos="zoom-in-right" className="list-disc ml-5">
             <li className="lg:text-base text-sm text-black opacity-70 lg:mb-4 mb-3 font-normal">
               Excel spreadsheets make it difficult to scale, collaborate, and
               organize documents, as there is no document management

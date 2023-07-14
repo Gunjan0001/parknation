@@ -8,7 +8,10 @@ const Location = () => {
     <>
       <section className="mt-5">
         <div className="container">
-          <div className="bg-white shadow-[0px_4px_76px_0px_rgba(0,0,0,0.16)] rounded-[10px] p-[30px]">
+          <div
+            data-aos="flip-left"
+            className="bg-white shadow-[0px_4px_76px_0px_rgba(0,0,0,0.16)] rounded-[10px] p-[30px]"
+          >
             <h2 className=" text-[18px] md:text-md lg:text-lg font-semibold">
               Find Location
             </h2>

@@ -54,7 +54,7 @@ const AllSiteLocation = () => {
     <>
       <div className=" container lg:mt-[100px] lg:mb-40 mb-20">
         <div className="flex flex-wrap justify-between w-full">
-          <div className="lg:w-1/2 w-full lg:pe-16">
+          <div data-aos="zoom-in-right" className="lg:w-1/2 w-full lg:pe-16">
             <div className="flex items-center w-full justify-between lg:pr-[40px]">
               <p className="font-normal text-[18px] lg:text-[22px] text-[#020202] font-Poppins">
                 Usa 2343
@@ -120,7 +120,7 @@ const AllSiteLocation = () => {
               eget dapibus at
             </p>
           </div>
-          <div className="lg:w-1/2">
+          <div data-aos="zoom-in-left" className="lg:w-1/2">
             <div className="bg-[#F8F8F8] mt-[30px] p-[18px]">
               <p className="font-semibold font-Poppins text-[#020202]  text-[18px] md:text-md lg:text-lg">
                 Location Features

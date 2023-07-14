@@ -4,7 +4,10 @@ const Contact = () => {
   return (
     <>
       <div className="container">
-        <div className="rounded-2xl !bg-white shadow-contactusboxshadow mb-[-115px] relative z-10 overflow-hidden lg:mt-40 md:mt-32 mt-20">
+        <div
+          data-aos="fade-zoom-in"
+          className="rounded-2xl !bg-white shadow-contactusboxshadow mb-[-115px] relative z-10 overflow-hidden lg:mt-40 md:mt-32 mt-20"
+        >
           <div className="rounder-[271px] bg-[#EB2022] opacity-[0.5] absolute top-0 left-0 z-20 w-[271px] h-[24px] blur-[49.5px]"></div>
           <div className="rounder-[271px] bg-[#EB2022] opacity-[0.30000001192092896] absolute bottom-0 right-[-10px] z-20 w-[271px] h-[73px] blur-[49.5px]"></div>
           <div className="max-w-[618px] lg:py-20 py-10 flex flex-col justify-center items-center mx-auto">

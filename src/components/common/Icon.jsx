@@ -75,6 +75,7 @@ export const Facebook = () => {
       height="24"
       viewBox="0 0 24 24"
       fill="none"
+      className=" hover:translate-y-[-4px] duration-150"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
@@ -87,6 +88,7 @@ export const Facebook = () => {
 export const Twitter = () => {
   return (
     <svg
+      className=" hover:translate-y-[-4px] duration-150"
       width="24"
       height="24"
       viewBox="0 0 24 24"
@@ -105,6 +107,7 @@ export const Instagram = () => {
     <svg
       width="24"
       height="24"
+      className=" hover:translate-y-[-4px] duration-150"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -414,6 +417,24 @@ export const Rightsidearrow = () => {
     >
       <path
         d="M6.4 18L5 16.6L9.575 12L5 7.4L6.4 6L12.4 12L6.4 18ZM13 18L11.6 16.6L16.175 12L11.6 7.4L13 6L19 12L13 18Z"
+        fill="#EB2022"
+      />
+    </svg>
+  );
+};
+// Downsidearrow
+export const DownSideArrow = () => {
+  return (
+    <svg
+      width="24"
+      height="24"
+      className="lg:ms-[50px]"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M6 6.4L7.4 5L12 9.575L16.6 5L18 6.4L12 12.4L6 6.4ZM6 13L7.4 11.6L12 16.175L16.6 11.6L18 13L12 19L6 13Z"
         fill="#EB2022"
       />
     </svg>
