@@ -6,7 +6,7 @@ const Camera = () => {
     <section className="bg-[#ffffff]">
       <div className="container md:py-[70px]">
         <div className="flex py-[50px] items-center flex-col-reverse lg:flex-row">
-          <div className="lg:w-1/2  xl:pe-[70px]">
+          <div data-aos="zoom-in-right" className="lg:w-1/2  xl:pe-[70px]">
             <p className="text-4xl font-bold text-black">
               24*7 Camera surveillance
             </p>
@@ -57,7 +57,10 @@ const Camera = () => {
               </p>
             </div>
           </div>
-          <div className="md:w-4/5 lg:w-1/2 lg:ps-[50px]">
+          <div
+            data-aos="zoom-in-left"
+            className="md:w-4/5 lg:w-1/2 lg:ps-[50px]"
+          >
             <img
               className="w-100"
               src={cameraSection}

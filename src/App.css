@@ -14,3 +14,8 @@ body {
 .dropdown:hover .dropdown-menu {
     display: block !important;
 }
+
+svg:hover path {
+    
+    fill: #eb2022 !important;
+}

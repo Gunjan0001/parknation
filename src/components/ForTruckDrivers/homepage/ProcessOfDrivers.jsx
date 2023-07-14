@@ -10,7 +10,7 @@ const ProcessOfDrivers = () => {
           <h2 className="lg:mb-20 mb-10 text-center text-4xl font-bold text-black">
             The Process for truck drivers
           </h2>
-          <div className=" relative">
+          <div className=" relative" data-aos="fade-down">
             <img
               src={truck_video}
               alt="truck_video"

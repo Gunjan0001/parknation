@@ -5,13 +5,13 @@ const HeroAboutUs = () => {
   return (
     <div className="container">
       <div className="lg:flex items-center justify-between lg:py-32 md:py-24 sm:py-20 py-6">
-        <div className="lg:w-2/5 md:full relative ">
+        <div className="lg:w-2/5 md:full relative " data-aos="fade-right">
           <img
             src={HeroSectionAboutUsMenWithTruck}
             alt="HeroSectionAboutUsMenWithTruck"
           />
         </div>
-        <div className="lg:w-1/2 md:5/6 px-2">
+        <div className="lg:w-1/2 md:5/6 px-2" data-aos="fade-left">
           <h4 className="l:text-4xl text-3xl font-bold text-[#020202] lg:mb-4 mb-3">
             About us
           </h4>

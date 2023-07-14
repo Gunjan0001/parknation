@@ -11,7 +11,11 @@ const OfferParking = () => {
         <div className="flex flex-wrap">
           {Offers.map((obj, i) => {
             return (
-              <div key={i} className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-full text-center my-[40px] ">
+              <div
+                data-aos="flip-left"
+                key={i}
+                className="lg:w-1/4 md:w-1/3 sm:w-1/2 w-full text-center my-[40px] "
+              >
                 <img
                   className=" w-[80px] mx-auto cursor-pointer hover:scale-[1.2] duration-300"
                   src={obj.icon}

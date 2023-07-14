@@ -4,11 +4,15 @@ import { Link } from "react-router-dom";
 import { CrossIcon } from "./Icon";
 const Header = () => {
   const [nav, setNav] = useState(true);
+  if (nav) {
+    document.body.classList.remove("overflow-hidden");
+  } else {
+    document.body.classList.add("overflow-hidden");
+  }
   return (
-    <nav className="bg-white">
+    <nav className="bg-white relative !z-[500px]">
       <div className="container">
         <div className="flex justify-between items-center">
-          {" "}
           <Link aria-label="logo" to="/">
             <img
               className="my-[12px] max-w-[76px] w-full  cursor-pointer"
@@ -17,7 +21,7 @@ const Header = () => {
             />
           </Link>
           <div
-            className={`flex items-center duration-300 lg:flex-row flex-col fixed z-[10px] lg:relative bg-gray-50 lg:bg-white h-full w-full  justify-center lg:justify-end 
+            className={`flex items-center z-50 duration-300 lg:flex-row flex-col fixed lg:relative bg-gray-50 lg:bg-white h-full w-full  justify-center lg:justify-end 
              ${
                nav === true
                  ? "left-[100%] bottom-[100%] lg:bottom-0 lg:left-0"
@@ -31,7 +35,6 @@ const Header = () => {
                 </Link>
               </li>
               <li className=" text-base font-normal text-black hover:text-primary cursor-pointer transition-all">
-                {" "}
                 <Link aria-label="search" to="/search">
                   Search
                 </Link>
@@ -63,7 +66,7 @@ const Header = () => {
                     <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                   </svg>
                 </button>
-                <ul className="dropdown-menu absolute top-[-5000%] text-gray-700 w-[100px] pt-1 duration-500 bg-white pb-3 ">
+                <ul className="dropdown-menu absolute top-[-10000%] text-gray-700 w-[100px] pt-1 duration-500 bg-white pb-3 ">
                   <li className="">
                     <Link
                       aria-label="blog"

@@ -3,7 +3,7 @@ const BetterSecurity = () => {
   return (
     <section className="bg-no-repeat bg-cover bg-bettersecuritybg py-[50px]">
       <div className="container sm:py-[50px] md:mb-[50px]">
-        <div className=" max-w-[500px] lg:py-[70px] ">
+        <div data-aos="zoom-out-left" className=" max-w-[500px] lg:py-[70px] ">
           <h3 className="font-extrabold text-black leading-[130%] text-6xl">
             Use our
             <span className="text-primary"> parking</span> for better security

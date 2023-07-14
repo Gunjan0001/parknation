@@ -6,7 +6,7 @@ const WhatWeDo = () => {
       <section>
         <div className="container py-10 mb-24">
           <div className="flex flex-wrap items-center">
-            <div className="lg:w-1/2 xl:pr-16 lg:pr-4">
+            <div data-aos="zoom-out-right" className="lg:w-1/2 xl:pr-16 lg:pr-4">
               <h2 className=" text-black text-4xl font-bold xl:mb-4 mb-2">
                 WHAT WE DO
               </h2>
@@ -32,7 +32,7 @@ const WhatWeDo = () => {
                 Sign Up Now
               </button>
             </div>
-            <div className="lg:w-1/2 lg:mt-0 mt-11">
+            <div data-aos="zoom-out-left" className="lg:w-1/2 lg:mt-0 mt-11">
               <img src={manWearingHelmet} alt="manWearingHelmet" />
             </div>
           </div>

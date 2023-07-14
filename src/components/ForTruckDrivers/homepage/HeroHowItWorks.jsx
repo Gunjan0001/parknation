@@ -8,8 +8,8 @@ const HeroHowItWorks = () => {
   const [tab, setTab] = useState(0);
   return (
     <section className="bg-[#f8f8f8]">
-      <div className=" lg:py-[100px] py-[50px] container">
-        <h2 className="text-center font-bold text-4xl mb-[6 0px] text-black">
+      <div data-aos="fade-down" className=" lg:py-[100px] py-[50px] container">
+        <h2 className="text-center font-bold text-4xl mb-[60px] text-black">
           How it works
         </h2>
         <div className=" bg-[#ffffff] py-[24px] px-[28px] rounded-[20px]">

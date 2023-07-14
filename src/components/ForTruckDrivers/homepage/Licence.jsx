@@ -6,14 +6,17 @@ const Licence = () => {
     <section className=" bg-[#f8f8f8]">
       <div className="container lg:py-[120px] py-[50px]">
         <div className="flex flex-wrap justify-center items-center">
-          <div className="lg:w-1/2 sm:w-4/5">
+          <div data-aos="zoom-in-right" className="lg:w-1/2 sm:w-4/5">
             <img
               className="w-full lg:pe-[36px]"
               src={licence}
               alt="licence section image"
             />
           </div>
-          <div className=" lg:w-1/2  xl:px-[40px] mt-2">
+          <div
+            data-aos="zoom-in-left"
+            className=" lg:w-1/2  xl:px-[40px] mt-2"
+          >
             <p className="text-4xl font-bold text-black ">
               license Plate recognition
             </p>

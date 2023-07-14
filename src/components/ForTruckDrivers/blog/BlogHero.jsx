@@ -4,7 +4,7 @@ import man_with_truck from "../../../assests/images/png/blog_manWithTruck.png"
 const BlogHero = () => {
   return (
     <>
-      <section className='pt-20'>
+      <section className="pt-20">
         <div className="container">
           <h2 className=" text-black font-bold lg:text-3xl md:text-xl sm:text-md text-base mb-4">
             Excel spreadsheets make it difficult to scale, collaborate, and
@@ -13,7 +13,10 @@ const BlogHero = () => {
           <p className=" text-black font-normal text-base opacity-60 mb-8">
             Published on March 24/2023
           </p>
-          <div className="lg:flex items-start lg:gap-14 md:gap-8">
+          <div
+            data-aos="zoom-in-right"
+            className="lg:flex items-start lg:gap-14 md:gap-8"
+          >
             <div className=" lg:w-1/2 w-full">
               <img
                 src={man_with_truck}

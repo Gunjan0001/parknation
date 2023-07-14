@@ -18,7 +18,11 @@ const SecurityLevel = () => {
           {SecurityCardData &&
             SecurityCardData.map((obj, i) => {
               return (
-                <div className="md:w-1/2 w-full lg:mb-20 mb-10" key={i}>
+                <div
+                  data-aos="zoom-in-right"
+                  className="md:w-1/2 w-full lg:mb-20 mb-10"
+                  key={i}
+                >
                   <div className="flex flex-col lg:flex-row lg:items-start items-center justify-center lg:gap-8 gap-5">
                     <img
                       src={obj.icon}
